@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+@media print {
+    @page {
+        margin: 20mm;
+        size: A4;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .carne {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 0.65em;
+        page-break-after: always;
+    }
+
+    .carne .item table thead th {
+        padding: 2px;
+        font-size: 0.65em;
+    }
+
+    .item table tbody td {
+        padding: 2px;
+        font-size: 0.65em;
+    }
+}
+
+.carne {
+    margin: 0 auto;
+    font-size: 0.7em;
+    background-color: #fff;
+}
+
+.carne .item {
+    margin-top: 7px;
+}
+
+.carne .item table {
+    width: 100%;
+}
+
+.carne .item table thead {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.carne .item table tbody {
+    text-align: center;
+}
+
+.carne .item table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.carne .item table tbody td {
+    padding: 4px;
+
+}
+
+.carne .item table thead th {
+    padding: 3px;
+
+}
+
+.carne .item table thead th img {
+    width: auto;
+
+}

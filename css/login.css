@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/*computador*/
+@media screen and (min-width:1000px){
+.bloco{
+width: 35%;
+}
+.bloco .group-bloco .titulo p{
+font-size:1.5em;
+}
+.bloco .group-bloco form{
+    padding: 50px;
+    }
+    
+
+}
+/*celular*/
+@media screen and (max-width:1000px){
+
+.bloco .group-bloco .titulo p{
+font-size:1.0em;
+}
+
+}
+
+body{
+background-color: #024b61;
+}
+
+header{
+padding: 10%;
+position: relative;
+
+}
+
+.bloco{
+margin: 0 auto;
+height: 100%;
+backdrop-filter: blur(10px);
+background-color: transparent;
+position: absolute;
+z-index: 1;
+left: 0;
+right: 0;
+
+}
+
+.bloco .group-bloco{
+padding: 10%;
+}
+
+.bloco .group-bloco .titulo{
+text-align: center;
+margin-bottom: 20px;
+color: rgb(205, 205, 205);
+}
+.bloco .group-bloco .reservado{
+    text-align: center;
+    color: rgb(138, 138, 138);
+    font-size: 0.7em;
+}
+
+.bloco .group-bloco .titulo i{
+font-size: 1.2em;
+}
+
+.bloco .group-bloco .titulo hr{
+width: 80px;
+margin: 0 auto;
+color: white;
+
+}
+
+.bloco .group-bloco .titulo p{
+
+}
+
+.bloco .group-bloco form{
+
+padding-top: 0px;
+position: relative;
+}
+
+.bloco .group-bloco form .group-input .gp-input{
+position: relative;
+margin-bottom: 20px;
+}
+
+
+.bloco .group-bloco form .group-input .gp-input i{
+position:absolute;
+right: 0;
+top: 10px;
+z-index: 2;
+right: 2px;
+color: rgb(198, 198, 198);
+cursor: pointer;
+
+}
+.bloco .group-bloco form input{
+background-color: #174654;
+border: 0px;
+color: white;
+}
+
+
+.bloco .group-bloco form input::placeholder{
+color:rgb(203, 203, 203);
+font-size: 0.8em;
+}
+
+.bloco .group-bloco form .btn-gp button{
+background: rgb(4, 131, 53);
+background: linear-gradient(90deg, rgba(16,173,76,1) 7%, rgba(8,205,53,1) 85%);
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+.bloco .group-bloco form .sub-titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.bloco .group-bloco form .sub-titulo .bloco-1{
+
+}
+.bloco .group-bloco form .sub-titulo .bloco-1 label{
+    color: rgb(170, 170, 170);
+    font-size: 0.9em;
+}
+.bloco .group-bloco form .sub-titulo a{
+    text-decoration: none;
+    color: rgb(93, 178, 71);
+    transition: 0.2s ease-in-out;
+
+}
+.bloco .group-bloco form .sub-titulo a:hover{ 
+   letter-spacing: 0.01em;
+}
+.bloco .group-bloco form .sub-titulo-2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(170, 170, 170);
+}
+
+.bloco .group-bloco form .sub-titulo-2 a{
+    text-decoration: none;
+    color: rgb(93, 178, 71);
+    transition: 0.2s ease-in-out;
+
+}
+.bloco .group-bloco form .sub-titulo-2 a:hover{ 
+   letter-spacing: 0.01em;
+}
+
+
+.waves{
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+z-index:unset;
+
+}
+.img-logo{
+    width: 120px;
+    margin-bottom: 10px;
+}

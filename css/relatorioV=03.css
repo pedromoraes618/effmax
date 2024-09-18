@@ -1,0 +1,77 @@
+
+/* Estilo para a tabela */
+.card table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilo para o cabeçalho da tabela */
+.card th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 0.7em;
+}
+
+/* Estilo para as células da tabela */
+.card td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 0.7em;
+}
+
+/* Estilo para linhas ímpares da tabela */
+.card tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Estilo para o rodapé da tabela */
+.card tfoot {
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+.card .card-header {
+    text-align: center;
+
+}
+
+.card .card-header p {
+    font-size: 1.2em;
+
+    font-weight: 600;
+    margin-bottom: 30px
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ededed;
+    padding: 2px;
+    text-align: center;
+}
+
+#footer p {
+    font-size: 0.8em;
+    color: rgb(143, 143, 143);
+    margin: 0px;
+}
+
+.adjustment-info{
+    background-color: #efefef;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.adjustment-info p {
+    margin: 2px;
+    font-size: 0.8em;
+}
+
+.adjustment-info span {
+}

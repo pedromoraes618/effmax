@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+
+    margin-top: 50px;
+}
+
+.header img {}
+
+table .titulo_tabela {
+    background-color: aqua;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 3px;
+    text-align: left;
+}
+
+th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.assinatura {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.assinatura hr {
+    width: 350px;
+    border-top: 1px dotted #323232;
+
+}
+
+
+.table-produtos th {
+    padding: 3px;
+    text-align: left;
+}
+
+.table-produtos td {
+    padding: 3px;
+    text-align: left;
+
+}

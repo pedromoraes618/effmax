@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recibo-quitacao-container {
+    background: #fff;
+    padding: 20px;
+    width: 600px;
+}
+
+
+.recibo-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.empresa-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+
+}
+
+.empresa-info .info {
+    font-size: 0.8em;
+}
+
+.recibo-info,
+.assinatura {
+    margin-bottom: 20px;
+}
+
+.empresa-info p,
+.recibo-quitacao-info p,
+.assinatura p {
+    margin: 5px 0;
+}
+
+.empresa-info p strong,
+.recibo-quitacao-info p strong {
+    font-size: 16px;
+}
+
+.assinatura {
+    text-align: center;
+}

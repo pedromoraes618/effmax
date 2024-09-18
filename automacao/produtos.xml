@@ -1,0 +1,5038 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<rss version='2.0'>
+<channel>
+<title>system_day - Produtos</title>
+<link>http://localhost</link>
+<description>Feed de produtos do system_day</description>
+<item>
+<id>1</id>
+<title>21 ABRE-TE SÉSAMO</title>
+<description>21 ABRE-TE SÉSAMO - ADELE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=1&amp;21 ABRE-TE SÉSAMO</link>
+<image_link>http://localhost/system_day/img/produto/b5bd9701796416ca994f5d2c9ff10ed0.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/44ed611036e5e211e1a71cd0a09f30ca.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>222.00 BRL</price>
+<brand>Brisa</brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price>195.00 BRL</sale_price>
+<sale_price_effective_date>2024-07-15T00:00:00-0300/2024-08-06T00:00:00-0300</sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>2</id>
+<title>FACELIFT</title>
+<description>FACELIFT - ALICE IN CHAINS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=2&amp;FACELIFT</link>
+<image_link>http://localhost/system_day/img/produto/95dbe1ad10e9ce044c34edc9413a1908.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/ce2f0ef06e437c1cbd5bc9952b921469.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>275.00 BRL</price>
+<brand>Brisa</brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>3</id>
+<title>ALL THE WAY TO RIO</title>
+<description>ALL THE WAY TO RIO - ANNA THERNHEIM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=3&amp;ALL THE WAY TO RIO</link>
+<image_link>http://localhost/system_day/img/produto/75c72429a8f92bd73b0c8f02db743d76.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/426666b72e38d07f6372a907dbbb86bc.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>190.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>archived</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>4</id>
+<title>ANYWHERE II</title>
+<description>ANYWHERE II - ANYWHERE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=4&amp;ANYWHERE II</link>
+<image_link>http://localhost/system_day/img/produto/6f56678314ee53b13ec94c76f8f5b2ce.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/50a77cfe988fddf612bb2f0fb0a12d32.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>170.00 BRL</price>
+<brand>teste</brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>5</id>
+<title>THE SUBURBS</title>
+<description>THE SUBURBS - ARCADE FIRE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=5&amp;THE SUBURBS</link>
+<image_link>http://localhost/system_day/img/produto/0b67b7bfdeeaa2320fb33bfc7be67bb5.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/5a7d7eefffd9392941c70e7961ac5eed.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>275.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>archived</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>6</id>
+<title>HUMBUG</title>
+<description>HUMBUG - ARCTIC MONKEYS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=6&amp;HUMBUG</link>
+<image_link>http://localhost/system_day/img/produto/05261416a22ea80b13c62c4135901ded.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/1c2862907d0262625d20a46eb4f1ff59.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>archived</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>7</id>
+<title>FAVOURITE WORST NIGHTMARE</title>
+<description>FAVOURITE WORST NIGHTMARE - ARCTIC MONKEYS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=7&amp;FAVOURITE WORST NIGHTMARE</link>
+<image_link>http://localhost/system_day/img/produto/b0338d3d1f2159823ab0d52c46f737c1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/3b3bab78a9d5475f639cd209192e7bf4.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand>Ação</brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>8</id>
+<title>TRANQUILITY BASE HOTEL E CASINO</title>
+<description>TRANQUILITY BASE HOTEL E CASINO - ARCTIC MONKEYS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=8&amp;TRANQUILITY BASE HOTEL E CASINO</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>archived</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>9</id>
+<title>SUCK IT AND SEE</title>
+<description>SUCK IT AND SEE - ARCTIC MONKEYS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=9&amp;SUCK IT AND SEE</link>
+<image_link>http://localhost/system_day/img/produto/112f93a16da7ad93db05591135866416.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/62f73b7374481d00bc681e1785c883af.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>10</id>
+<title>AT FOLSOM PRISON</title>
+<description>AT FOLSOM PRISON - JOHNNY CASH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=10&amp;AT FOLSOM PRISON</link>
+<image_link>http://localhost/system_day/img/produto/97d5158184df6ebdaf835782e542abb6.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/5108f05b8300bf8aad3fe99197d8303f.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>11</id>
+<title>AUDIOSLAVE</title>
+<description>AUDIOSLAVE - AUDIOSLAVE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=11&amp;AUDIOSLAVE</link>
+<image_link>http://localhost/system_day/img/produto/6ba0ec72aac1f760da8591f53c702da4.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/f9fa6f65bcd152d732841dd856bd20b7.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>275.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>12</id>
+<title>WILD PLANET</title>
+<description>WILD PLANET - B52 S</description>
+<link>http://localhost/system_day_ecommerce/?product-details=12&amp;WILD PLANET</link>
+<image_link>http://localhost/system_day/img/produto/08f96b199378f6cb2b423aa18bb9d764.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/2a601457226926951265888b42ad8d8b.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>15</id>
+<title>SAVED</title>
+<description>SAVED - BOB DYLAN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=15&amp;SAVED</link>
+<image_link>http://localhost/system_day/img/produto/66c2d7a22cbe4eb2fc57a2a1b54e83af.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/4812efa36f86b512cd9b891a2b6d592d.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>16</id>
+<title>BRINGING IT ALL BACK HOME</title>
+<description>BRINGING IT ALL BACK HOME - BOB DYLAN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=16&amp;BRINGING IT ALL BACK HOME</link>
+<image_link>http://localhost/system_day/img/produto/b8b438a21daf3d13f2c3c07d37c46a37.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/e2707757362dcf627afb42d7a6ba67f1.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>17</id>
+<title>SLOW TRAIN COMING</title>
+<description>SLOW TRAIN COMING - BOB DYLAN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=17&amp;SLOW TRAIN COMING</link>
+<image_link>http://localhost/system_day/img/produto/bda7ce0c25b3c72891b8bd1549ae4073.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/b64573b6e28c530acef93c5eaf35c718.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>18</id>
+<title>HIGHWAY 61 REVISITED</title>
+<description>HIGHWAY 61 REVISITED - BOB DYLAN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=18&amp;HIGHWAY 61 REVISITED</link>
+<image_link>http://localhost/system_day/img/produto/d6ee889ace6dceda91fdabe4a008301d.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/e9cff2a3cb3c79aa2af62535121c37c6.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>19</id>
+<title>BON IVER</title>
+<description>BON IVER - BON IVER</description>
+<link>http://localhost/system_day_ecommerce/?product-details=19&amp;BON IVER</link>
+<image_link>http://localhost/system_day/img/produto/956ad5357ffe4cf918e28763722f74b1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/2339975b899cd3e80bc40392d497b7ad.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>20</id>
+<title>LAST SPLASH</title>
+<description>LAST SPLASH - THE BREEDERS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=20&amp;LAST SPLASH</link>
+<image_link>http://localhost/system_day/img/produto/8f6a06ce6e19ea128ae231bbdcb6a82a.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/ef0d7aaf5040c5150bc910e7690f6054.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>21</id>
+<title>SIXTEEN STONE</title>
+<description>SIXTEEN STONE - BUSH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=21&amp;SIXTEEN STONE</link>
+<image_link>http://localhost/system_day/img/produto/32725f6e59725d824513622443fa5e38.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/277ffdd4376c87188cc401287855539b.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/9640ceec3eb2c8459488a97f287f9b26.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>22</id>
+<title>CAGE THE ELEPHANT</title>
+<description>CAGE THE ELEPHANT - CAGE THE ELEPHANT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=22&amp;CAGE THE ELEPHANT</link>
+<image_link>http://localhost/system_day/img/produto/1021fe7b573355e2c70ff34b61949322.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/fa0a994a5cf7c5a849f98f18e278959c.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/e8c22a7ba2aaaf914c6026378d1f3a21.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>23</id>
+<title>O CANTO DAS TRES RAÇAS</title>
+<description>O CANTO DAS TRES RAÇAS - CLARA NUNES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=23&amp;O CANTO DAS TRES RAÇAS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>25</id>
+<title>RANDOM ACCESS MEMORIES</title>
+<description>RANDOM ACCESS MEMORIES - DAFT PUNK</description>
+<link>http://localhost/system_day_ecommerce/?product-details=25&amp;RANDOM ACCESS MEMORIES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>26</id>
+<title>THE NEARER THE FOUNTAIN, MORE PURE THE STREAM FLOWS</title>
+<description>THE NEARER THE FOUNTAIN, MORE PURE THE STREAM FLOWS - DAMOM ALBURN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=26&amp;THE NEARER THE FOUNTAIN, MORE PURE THE STREAM FLOWS</link>
+<image_link>http://localhost/system_day/img/produto/7bd743545e9648e0b17c6089628c793f.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/569e40a328618431396b45d64e9f26af.jpg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>27</id>
+<title>DIAMOND DOGS</title>
+<description>DIAMOND DOGS - DAVID BOWIE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=27&amp;DIAMOND DOGS</link>
+<image_link>http://localhost/system_day/img/produto/8f702dadedfcf0743303003f98062f75.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/f165a42ee5f823b2bf9fd8a7d8751115.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>28</id>
+<title>THE RISE AND FALL OF ZIGGY STARDUST AND THE SPIDERS FROM MARS</title>
+<description>THE RISE AND FALL OF ZIGGY STARDUST AND THE SPIDERS FROM MARS - DAVID BOWIE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=28&amp;THE RISE AND FALL OF ZIGGY STARDUST AND THE SPIDERS FROM MARS</link>
+<image_link>http://localhost/system_day/img/produto/241a3e5f7010d0e2d3f06ca33514c569.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/4a723cb9d7b529558cd56df5ae775ebe.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>29</id>
+<title>HEROES</title>
+<description>HEROES - DAVID BOWIE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=29&amp;HEROES</link>
+<image_link>http://localhost/system_day/img/produto/48e2594f7642dae9b19421b00552b511.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/c404ba5101c2c732b8cda4c68cb69830.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>30</id>
+<title>SCREAM BLOODY GORE</title>
+<description>SCREAM BLOODY GORE - DEATH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=30&amp;SCREAM BLOODY GORE</link>
+<image_link>http://localhost/system_day/img/produto/6ca1051397ce13e55d972a9ac25dd3cc.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/343c54f90eb590545a043bdae861c7ee.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>archived</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>31</id>
+<title>FIVE SPANISH SONGS</title>
+<description>FIVE SPANISH SONGS - DESTROYER</description>
+<link>http://localhost/system_day_ecommerce/?product-details=31&amp;FIVE SPANISH SONGS</link>
+<image_link>http://localhost/system_day/img/produto/289cb7eab76a86a0c6d774d289d43909.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/f1ba912863258fb47b23d4a09b6d57f2.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>32</id>
+<title>HIGHER THAN HEAVEN</title>
+<description>HIGHER THAN HEAVEN - ELLIE GOULDING</description>
+<link>http://localhost/system_day_ecommerce/?product-details=32&amp;HIGHER THAN HEAVEN</link>
+<image_link>http://localhost/system_day/img/produto/6dacc5c4b83fc9427f8b1f19f448e9c0.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>33</id>
+<title>FOO FIGHTERS</title>
+<description>FOO FIGHTERS - FOO FIGHTERS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=33&amp;FOO FIGHTERS</link>
+<image_link>http://localhost/system_day/img/produto/250b6c67555f3ce6709ea037437afdff.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/60d7cf6ba72aad3bba50278af82ef349.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>34</id>
+<title>SACRED HEARTS CLUB</title>
+<description>SACRED HEARTS CLUB - FOSTER THE PEOPLE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=34&amp;SACRED HEARTS CLUB</link>
+<image_link>http://localhost/system_day/img/produto/ac9ad99e430cfee43979808a7fef84ac.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/855e98471a4d642ce0b18a79ac137cc3.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>35</id>
+<title>ALBATROSS</title>
+<description>ALBATROSS - FOXING</description>
+<link>http://localhost/system_day_ecommerce/?product-details=35&amp;ALBATROSS</link>
+<image_link>http://localhost/system_day/img/produto/751f624f50d41b67e8bb3569ca7b30dc.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>170.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>36</id>
+<title>FRANZ FERDINAND</title>
+<description>FRANZ FERDINAND - FRANZ FERDINAND</description>
+<link>http://localhost/system_day_ecommerce/?product-details=36&amp;FRANZ FERDINAND</link>
+<image_link>http://localhost/system_day/img/produto/aacf84a367fcd698cdb9aa95743f2ba2.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>37</id>
+<title>AGUA VIVA</title>
+<description>AGUA VIVA - GAL COSTA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=37&amp;AGUA VIVA</link>
+<image_link>http://localhost/system_day/img/produto/7662906cfe45ce831f1ec67d6dd3eb23.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>160.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>38</id>
+<title>HARRY STYLES</title>
+<description>HARRY STYLES - HARRY STYLES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=38&amp;HARRY STYLES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>39</id>
+<title>ARE YOU EXPERIENCED</title>
+<description>ARE YOU EXPERIENCED - JIMI HENDRIX</description>
+<link>http://localhost/system_day_ecommerce/?product-details=39&amp;ARE YOU EXPERIENCED</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>40</id>
+<title>PAINKILLER</title>
+<description>PAINKILLER - JUDAS PRIEST</description>
+<link>http://localhost/system_day_ecommerce/?product-details=40&amp;PAINKILLER</link>
+<image_link>http://localhost/system_day/img/produto/564a5ad0f5460805828a09920fa620e3.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>41</id>
+<title>MAN OF THE WOODS</title>
+<description>MAN OF THE WOODS - JUSTIN TIMBERLAKE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=41&amp;MAN OF THE WOODS</link>
+<image_link>http://localhost/system_day/img/produto/5435d10ed7bd78ab6d9d637e2ecdeef9.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>42</id>
+<title>SMILE</title>
+<description>SMILE - KATTY PERRY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=42&amp;SMILE</link>
+<image_link>http://localhost/system_day/img/produto/1215c6d72e0359ecb0d7b55132a74692.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>43</id>
+<title>WALLS</title>
+<description>WALLS - KINGS OF LEON</description>
+<link>http://localhost/system_day_ecommerce/?product-details=43&amp;WALLS</link>
+<image_link>http://localhost/system_day/img/produto/778dadcb383e0f4297a5512341b1c30b.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>44</id>
+<title>STRANGE TRAILS</title>
+<description>STRANGE TRAILS - LORD HURON</description>
+<link>http://localhost/system_day_ecommerce/?product-details=44&amp;STRANGE TRAILS</link>
+<image_link>http://localhost/system_day/img/produto/189af782b6ae63bfd10d112d4c34570b.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>45</id>
+<title>MADONNA</title>
+<description>MADONNA - MADONNA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=45&amp;MADONNA</link>
+<image_link>http://localhost/system_day/img/produto/4157235df0d90ecdbf1b2ef098ba5fa1.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>46</id>
+<title>LIKE A PRAYER</title>
+<description>LIKE A PRAYER - MADONNA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=46&amp;LIKE A PRAYER</link>
+<image_link>http://localhost/system_day/img/produto/862a820daad6d264a78e58816df56ffc.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>47</id>
+<title>... AND JUSTICE FOR ALL</title>
+<description>... AND JUSTICE FOR ALL - METALLICA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=47&amp;... AND JUSTICE FOR ALL</link>
+<image_link>http://localhost/system_day/img/produto/68f872976b26c8496a529a500bf97697.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>48</id>
+<title>AUTOMAT</title>
+<description>AUTOMAT - METZ</description>
+<link>http://localhost/system_day_ecommerce/?product-details=48&amp;AUTOMAT</link>
+<image_link>http://localhost/system_day/img/produto/970952145926ceb8f15332f2a457ca40.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>49</id>
+<title>ORACULAR SPETACULAR</title>
+<description>ORACULAR SPETACULAR - MGMT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=49&amp;ORACULAR SPETACULAR</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>50</id>
+<title>THRILLER</title>
+<description>THRILLER - MICHAEL JACKSON</description>
+<link>http://localhost/system_day_ecommerce/?product-details=50&amp;THRILLER</link>
+<image_link>http://localhost/system_day/img/produto/67ca1c5d3d1a4f8a190202c99ca85246.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>51</id>
+<title>BAD</title>
+<description>BAD - MICHAEL JACKSON</description>
+<link>http://localhost/system_day_ecommerce/?product-details=51&amp;BAD</link>
+<image_link>http://localhost/system_day/img/produto/c91863608f3d36b380e110d8763f6d17.png</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>52</id>
+<title>OFF THE WALL</title>
+<description>OFF THE WALL - MICHAEL JACKSON</description>
+<link>http://localhost/system_day_ecommerce/?product-details=52&amp;OFF THE WALL</link>
+<image_link>http://localhost/system_day/img/produto/ee65e1965679ba058b0a7e57ab754a16.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>53</id>
+<title>SKIPTRACING</title>
+<description>SKIPTRACING - MILD HIGJ CLUB</description>
+<link>http://localhost/system_day_ecommerce/?product-details=53&amp;SKIPTRACING</link>
+<image_link>http://localhost/system_day/img/produto/7b8924f3a9c260544ad941c60f7495ff.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>160.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>54</id>
+<title>YOUNGER NOW</title>
+<description>YOUNGER NOW - MILEY CIRUS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=54&amp;YOUNGER NOW</link>
+<image_link>http://localhost/system_day/img/produto/e8c33f12697c04f798707547d1d2a139.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>55</id>
+<title>BLACK PARADE</title>
+<description>BLACK PARADE - MY CHEMICHAL ROMANCE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=55&amp;BLACK PARADE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>56</id>
+<title>IT STILL MOVES</title>
+<description>IT STILL MOVES - MY MORNING JACKET</description>
+<link>http://localhost/system_day_ecommerce/?product-details=56&amp;IT STILL MOVES</link>
+<image_link>http://localhost/system_day/img/produto/8ce66d528c2a98346e268a0279888708.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>57</id>
+<title>FIRST TWO PAGES OF FRANKENSTEIN</title>
+<description>FIRST TWO PAGES OF FRANKENSTEIN - NATIONAL</description>
+<link>http://localhost/system_day_ecommerce/?product-details=57&amp;FIRST TWO PAGES OF FRANKENSTEIN</link>
+<image_link>http://localhost/system_day/img/produto/32d31369dcd94941e4947f27edb089ed.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>58</id>
+<title>NODZZZ</title>
+<description>NODZZZ - NODZZZ</description>
+<link>http://localhost/system_day_ecommerce/?product-details=58&amp;NODZZZ</link>
+<image_link>http://localhost/system_day/img/produto/11648a0d6ddde7f6f752e3213204fb7c.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>90.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>59</id>
+<title>BEGIN AGAIN</title>
+<description>BEGIN AGAIN - NORAH JONES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=59&amp;BEGIN AGAIN</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>60</id>
+<title>HORSES</title>
+<description>HORSES - PATTI SMITH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=60&amp;HORSES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>61</id>
+<title>CROOKED RAIN, CROOKED RAIN</title>
+<description>CROOKED RAIN, CROOKED RAIN - PAVEMENT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=61&amp;CROOKED RAIN, CROOKED RAIN</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>62</id>
+<title>BRIGHTEN THE CORNERS</title>
+<description>BRIGHTEN THE CORNERS - PAVEMENT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=62&amp;BRIGHTEN THE CORNERS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>63</id>
+<title>TEN</title>
+<description>TEN - PEARL JAM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=63&amp;TEN</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>64</id>
+<title>RID OF ME</title>
+<description>RID OF ME - PJ HARVEY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=64&amp;RID OF ME</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>65</id>
+<title>MEDS</title>
+<description>MEDS - PLACEBO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=65&amp;MEDS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>66</id>
+<title>RENEGADES</title>
+<description>RENEGADES - RAGE AGAINST THE MACHINE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=66&amp;RENEGADES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>67</id>
+<title>RAMONES</title>
+<description>RAMONES - RAMONES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=67&amp;RAMONES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>68</id>
+<title>BLEEDERS DIGEST</title>
+<description>BLEEDERS DIGEST - SAY HI</description>
+<link>http://localhost/system_day_ecommerce/?product-details=68&amp;BLEEDERS DIGEST</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>90.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>69</id>
+<title>WISHES &amp; GLITCH</title>
+<description>WISHES &amp; GLITCH - SAY HI</description>
+<link>http://localhost/system_day_ecommerce/?product-details=69&amp;WISHES &amp;amp; GLITCH</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>90.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>70</id>
+<title>MUSE</title>
+<description>MUSE - SIMULATION THEORY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=70&amp;MUSE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>71</id>
+<title>SLY &amp; THE FAMILY STONE</title>
+<description>SLY &amp; THE FAMILY STONE - SLY &amp; THE FAMILY STONE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=71&amp;SLY &amp;amp; THE FAMILY STONE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>72</id>
+<title>A SEAT AT THE TABLE</title>
+<description>A SEAT AT THE TABLE - SOLANGE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=72&amp;A SEAT AT THE TABLE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>73</id>
+<title>GOO</title>
+<description>GOO - SONIC YOUTH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=73&amp;GOO</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>74</id>
+<title>WOW TO THE DEADNESS</title>
+<description>WOW TO THE DEADNESS - STEVE TAYLOR &amp; THE PERFECT FOIL</description>
+<link>http://localhost/system_day_ecommerce/?product-details=74&amp;WOW TO THE DEADNESS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>160.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>75</id>
+<title>DARK BLUE</title>
+<description>DARK BLUE - STEVEN LAMBKE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=75&amp;DARK BLUE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>90.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>76</id>
+<title>COMEDOWN MACHINE</title>
+<description>COMEDOWN MACHINE - STROKES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=76&amp;COMEDOWN MACHINE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>77</id>
+<title>IS THIS IT</title>
+<description>IS THIS IT - STROKES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=77&amp;IS THIS IT</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>78</id>
+<title>CARRIE &amp; LOWELL</title>
+<description>CARRIE &amp; LOWELL - SUFJAN STEVENS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=78&amp;CARRIE &amp;amp; LOWELL</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>79</id>
+<title>HELP US STRANGER</title>
+<description>HELP US STRANGER - THE RACONTEURS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=79&amp;HELP US STRANGER</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>80</id>
+<title>MOTION PICTURE SOUNDTRACK</title>
+<description>MOTION PICTURE SOUNDTRACK - THE ROCKY HORROR PICTURE SHOW</description>
+<link>http://localhost/system_day_ecommerce/?product-details=80&amp;MOTION PICTURE SOUNDTRACK</link>
+<image_link>http://localhost/system_day/img/produto/78729ecb51902df6099bc5f2cabc7a3a.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>81</id>
+<title>THE TALLEST MAN ON EARTH</title>
+<description>THE TALLEST MAN ON EARTH - THE TALLEST MAN ON EARTH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=81&amp;THE TALLEST MAN ON EARTH</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>82</id>
+<title>ENJOY THE COMPANY</title>
+<description>ENJOY THE COMPANY - THE WHIGS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=82&amp;ENJOY THE COMPANY</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>160.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>83</id>
+<title>MODERN VAMPIRES OF THE CITY</title>
+<description>MODERN VAMPIRES OF THE CITY - VAMPIRE WEEKEND</description>
+<link>http://localhost/system_day_ecommerce/?product-details=83&amp;MODERN VAMPIRES OF THE CITY</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>84</id>
+<title>BLACK ALBUM</title>
+<description>BLACK ALBUM - WEEZER</description>
+<link>http://localhost/system_day_ecommerce/?product-details=84&amp;BLACK ALBUM</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>85</id>
+<title>WET LEG</title>
+<description>WET LEG - WET LEG</description>
+<link>http://localhost/system_day_ecommerce/?product-details=85&amp;WET LEG</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>86</id>
+<title>PRIMORDIAL ARCANA</title>
+<description>PRIMORDIAL ARCANA - WOLVES IN THE THRONE ROOM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=86&amp;PRIMORDIAL ARCANA</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>160.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>87</id>
+<title>WOMEN IN MUSIC PT. III</title>
+<description>WOMEN IN MUSIC PT. III - HAIM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=87&amp;WOMEN IN MUSIC PT. III</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>88</id>
+<title>ON HUMAN FREAKOUT MOUNTAIN</title>
+<description>ON HUMAN FREAKOUT MOUNTAIN - ZULI</description>
+<link>http://localhost/system_day_ecommerce/?product-details=88&amp;ON HUMAN FREAKOUT MOUNTAIN</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>90.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>90</id>
+<title>SPEAK &amp; SPELL</title>
+<description>SPEAK &amp; SPELL - DEPEACHE MODE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=90&amp;SPEAK &amp;amp; SPELL</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>91</id>
+<title>APETITE FOR DESTRUCTION</title>
+<description>APETITE FOR DESTRUCTION - GUNS N ROSES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=91&amp;APETITE FOR DESTRUCTION</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>93</id>
+<title>A PLACE IN THE SUN</title>
+<description>A PLACE IN THE SUN - LIT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=93&amp;A PLACE IN THE SUN</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>94</id>
+<title>...BABY ONE MORE TIME</title>
+<description>...BABY ONE MORE TIME - BRITNEY SPEARS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=94&amp;...BABY ONE MORE TIME</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>95</id>
+<title>WHO CARES?</title>
+<description>WHO CARES? - REX ORANGE COUNTY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=95&amp;WHO CARES?</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>96</id>
+<title>EARL SWEATSHIRT </title>
+<description>EARL SWEATSHIRT  - DORIS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=96&amp;EARL SWEATSHIRT </link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>200.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>97</id>
+<title>BACK ONDA BLOCK</title>
+<description>BACK ONDA BLOCK - DRIVE BY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=97&amp;BACK ONDA BLOCK</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>100.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>98</id>
+<title>NO ONE EVER REALY DIES</title>
+<description>NO ONE EVER REALY DIES - N.E.R.D</description>
+<link>http://localhost/system_day_ecommerce/?product-details=98&amp;NO ONE EVER REALY DIES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>99</id>
+<title>6666</title>
+<description>6666 - FOUR FISTS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=99&amp;6666</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>100.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>100</id>
+<title>RANDOM DESIRE</title>
+<description>RANDOM DESIRE - GREG DULLI</description>
+<link>http://localhost/system_day_ecommerce/?product-details=100&amp;RANDOM DESIRE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>200.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>101</id>
+<title>INDIVIDUAL THOUGHT PATTERNS</title>
+<description>INDIVIDUAL THOUGHT PATTERNS - DEATH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=101&amp;INDIVIDUAL THOUGHT PATTERNS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>102</id>
+<title>HERE COMES THE COWBOY</title>
+<description>HERE COMES THE COWBOY - MAC DEMARCO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=102&amp;HERE COMES THE COWBOY</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>103</id>
+<title>CLASSICS</title>
+<description>CLASSICS - SHE &amp; HIM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=103&amp;CLASSICS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>190.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>104</id>
+<title>THE NEARER THE FOUTAIN,MORE PURE THE STREAM FLOWS</title>
+<description>THE NEARER THE FOUTAIN,MORE PURE THE STREAM FLOWS - DAMON ALBARN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=104&amp;THE NEARER THE FOUTAIN,MORE PURE THE STREAM FLOWS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>107</id>
+<title>ROOM ON FIRE</title>
+<description>ROOM ON FIRE - THE STROKES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=107&amp;ROOM ON FIRE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>109</id>
+<title>PARADISE</title>
+<description>PARADISE - LANA DEL REY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=109&amp;PARADISE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>275.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>110</id>
+<title>MELOPHOBIA</title>
+<description>MELOPHOBIA - CAGE THE  ELEPHANT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=110&amp;MELOPHOBIA</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>136</id>
+<title>LATE REGISTRATION</title>
+<description>LATE REGISTRATION - KANYE WEST</description>
+<link>http://localhost/system_day_ecommerce/?product-details=136&amp;LATE REGISTRATION</link>
+<image_link>http://localhost/system_day/img/produto/c603fb5a1df347470cab50db6cea9fa5.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/65e3a512ad30cc2fe40d88e83b9e4a5e.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>295.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>archived</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>156</id>
+<title>NIRVANA (BEST OF)</title>
+<description>NIRVANA (BEST OF) - NIRVANA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=156&amp;NIRVANA (BEST OF)</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>163</id>
+<title>HOUSE OF THE HOLY</title>
+<description>HOUSE OF THE HOLY - LED ZEPPELIN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=163&amp;HOUSE OF THE HOLY</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>240.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>169</id>
+<title>PARACHUTES</title>
+<description>PARACHUTES - COLDPLAY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=169&amp;PARACHUTES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>283.25 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>170</id>
+<title>FACELIFT</title>
+<description>FACELIFT - ALICE IN CHAINS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=170&amp;FACELIFT</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>275.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>172</id>
+<title>ABRE</title>
+<description>ABRE - ABRE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=172&amp;ABRE</link>
+<image_link>http://localhost/system_day/img/produto/571cf4c8aa20bddd00de778a74c0dead.png</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>120.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>13</id>
+<title>PRIMEIRO</title>
+<description>PRIMEIRO - BAIANASYSTEM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=13&amp;PRIMEIRO</link>
+<image_link>http://localhost/system_day/img/produto/a802d57ec9388e5ef1d985392ad21008.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/1c9ef4a315bb71860bac575065eb3f48.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/9940a7daab39f70b68b6be8b21ccad26.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>14</id>
+<title>BATUKEBOX</title>
+<description>BATUKEBOX - BAIANASYSTEM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=14&amp;BATUKEBOX</link>
+<image_link>http://localhost/system_day/img/produto/02451b0c832d36998e431bedcec70be1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/e6105666e5f0e9a656b34616203aa366.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/2dc758dcf86a7d6b4b8bdaaeaeced98b.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>24</id>
+<title>AINDA HA TEMPO</title>
+<description>AINDA HA TEMPO - CRIOLO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=24&amp;AINDA HA TEMPO</link>
+<image_link>http://localhost/system_day/img/produto/a4d40d6e68e61dfc29513d3ee2890867.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/2a1acd0af4b0c11d768e52b2ad4a2727.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>89</id>
+<title>ÁFRICA BRASIL</title>
+<description>ÁFRICA BRASIL - JORGE BEN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=89&amp;ÁFRICA BRASIL</link>
+<image_link>http://localhost/system_day/img/produto/170431746982549758_1.jpg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>92</id>
+<title>AUTOMATIC FOR THE PEOPLE</title>
+<description>AUTOMATIC FOR THE PEOPLE - R.E.M</description>
+<link>http://localhost/system_day_ecommerce/?product-details=92&amp;AUTOMATIC FOR THE PEOPLE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>108</id>
+<title>INDIA</title>
+<description>INDIA - GAL COSTA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=108&amp;INDIA</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>111</id>
+<title>HUNKY DORY</title>
+<description>HUNKY DORY - DAVID BOWIE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=111&amp;HUNKY DORY</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>112</id>
+<title>IF I CAN T HAVE LOVE I WANT POWER</title>
+<description>IF I CAN T HAVE LOVE I WANT POWER - HALSEY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=112&amp;IF I CAN T HAVE LOVE I WANT POWER</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>113</id>
+<title>GUARDIANS  OF THEGALAXY</title>
+<description>GUARDIANS  OF THEGALAXY - SOUNDTRAK</description>
+<link>http://localhost/system_day_ecommerce/?product-details=113&amp;GUARDIANS  OF THEGALAXY</link>
+<image_link>http://localhost/system_day/img/produto/175b2137975192ecd9e87f42ac99fe94.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>114</id>
+<title>DAMN</title>
+<description>DAMN - KENDRICK  LAMAR</description>
+<link>http://localhost/system_day_ecommerce/?product-details=114&amp;DAMN</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>300.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>115</id>
+<title>PLANET HER</title>
+<description>PLANET HER - DOJA CAT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=115&amp;PLANET HER</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>250.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>116</id>
+<title>FOLKLORE</title>
+<description>FOLKLORE - TAYLOR  SWIFT</description>
+<link>http://localhost/system_day_ecommerce/?product-details=116&amp;FOLKLORE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>300.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>117</id>
+<title>21</title>
+<description>21 - ADELE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=117&amp;21</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>122</id>
+<title>ATRAS DO PORTO TEM UMA CIDADE</title>
+<description>ATRAS DO PORTO TEM UMA CIDADE - RITA  LEE &amp; TUTTI FRUTI</description>
+<link>http://localhost/system_day_ecommerce/?product-details=122&amp;ATRAS DO PORTO TEM UMA CIDADE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>200.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>123</id>
+<title>VENTURA</title>
+<description>VENTURA - LOS HERMANOS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=123&amp;VENTURA</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>295.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>124</id>
+<title>LOS  HERMANOS</title>
+<description>LOS  HERMANOS - LOS HERMANOS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=124&amp;LOS  HERMANOS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>275.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>127</id>
+<title>UNORTHODOX JUKEBOX</title>
+<description>UNORTHODOX JUKEBOX - BRUNO MARS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=127&amp;UNORTHODOX JUKEBOX</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>230.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>128</id>
+<title>HOW IM  FEELING NOW</title>
+<description>HOW IM  FEELING NOW - CHARLI XCX</description>
+<link>http://localhost/system_day_ecommerce/?product-details=128&amp;HOW IM  FEELING NOW</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>210.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>138</id>
+<title>PERPETUAL CHAOS</title>
+<description>PERPETUAL CHAOS - NERVOSA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=138&amp;PERPETUAL CHAOS</link>
+<image_link>http://localhost/system_day/img/produto/8865aaa83f1d0946d1c6dd1aca9ab8c0.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>190.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>139</id>
+<title>AO VIVO</title>
+<description>AO VIVO - MUTANTES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=139&amp;AO VIVO</link>
+<image_link>http://localhost/system_day/img/produto/41155336b73adf1b6082250168100346.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>120.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>140</id>
+<title>MM</title>
+<description>MM - MARISA MONTE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=140&amp;MM</link>
+<image_link>http://localhost/system_day/img/produto/171373950648219133_2.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>190.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>141</id>
+<title>LET IT BED</title>
+<description>LET IT BED - ARNALDO BAPTISTA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=141&amp;LET IT BED</link>
+<image_link>http://localhost/system_day/img/produto/8305e373bc7c32130380f09f86464e04.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>180.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>142</id>
+<title>CADA UM EM DOIS</title>
+<description>CADA UM EM DOIS - O INIMIGO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=142&amp;CADA UM EM DOIS</link>
+<image_link>http://localhost/system_day/img/produto/d680bae5e8a450ed2ee40deed9192aaa.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>120.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>143</id>
+<title>DISCO NORMAL</title>
+<description>DISCO NORMAL - TEST</description>
+<link>http://localhost/system_day_ecommerce/?product-details=143&amp;DISCO NORMAL</link>
+<image_link>http://localhost/system_day/img/produto/2b5ad37d4f331d2c7449f58427d7fb2f.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>160.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>144</id>
+<title>TROPIX</title>
+<description>TROPIX - CÉU</description>
+<link>http://localhost/system_day_ecommerce/?product-details=144&amp;TROPIX</link>
+<image_link>http://localhost/system_day/img/produto/57a6937f35545b40626703c5971d5105.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>200.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>145</id>
+<title>FULORESTA DO SAMBA</title>
+<description>FULORESTA DO SAMBA - SIBA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=145&amp;FULORESTA DO SAMBA</link>
+<image_link>http://localhost/system_day/img/produto/c2ec8a4a9496966a393dec494fb16c7e.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>215.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>146</id>
+<title>JARDS MACALÉ</title>
+<description>JARDS MACALÉ - JARDS MACALÉ</description>
+<link>http://localhost/system_day_ecommerce/?product-details=146&amp;JARDS MACALÉ</link>
+<image_link>http://localhost/system_day/img/produto/748a8dab57471bbc9f0e05aa122d21bf.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>200.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>147</id>
+<title>ACABOU CHORARE</title>
+<description>ACABOU CHORARE - NOVOS BAIANOS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=147&amp;ACABOU CHORARE</link>
+<image_link>http://localhost/system_day/img/produto/b784f86899adad35ebbef3642b228aa8_1.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>190.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>148</id>
+<title>É FERRO NA BONECA</title>
+<description>É FERRO NA BONECA - NOVOS BAIANOS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=148&amp;É FERRO NA BONECA</link>
+<image_link>http://localhost/system_day/img/produto/a607d5a5b42dafd96457d0caa884cbe2_1.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>1.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>154</id>
+<title>NECROPOLITICA</title>
+<description>NECROPOLITICA - RATO DE PORÃO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=154&amp;NECROPOLITICA</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>190.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>167</id>
+<title>FEAR OF A BLACK PLANET</title>
+<description>FEAR OF A BLACK PLANET - PUBLIC ENEMY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=167&amp;FEAR OF A BLACK PLANET</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>100.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>168</id>
+<title>SOBRE VIVER</title>
+<description>SOBRE VIVER - CRIOLLO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=168&amp;SOBRE VIVER</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>220.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Novos-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>106</id>
+<title>BLOOD SUGAR SEX MAGIK</title>
+<description>BLOOD SUGAR SEX MAGIK - RED HOT CHILLI  PEPPERS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=106&amp;BLOOD SUGAR SEX MAGIK</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>220.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>119</id>
+<title>RUBBER  SOUL</title>
+<description>RUBBER  SOUL - THE BEATLES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=119&amp;RUBBER  SOUL</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>120.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>129</id>
+<title>HOLD ME IN YOUR ARMS</title>
+<description>HOLD ME IN YOUR ARMS - RICK ASTLEY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=129&amp;HOLD ME IN YOUR ARMS</link>
+<image_link>http://localhost/system_day/img/produto/171182262912212348_1.jpeg</image_link>
+<image_link>http://localhost/system_day/img/produto/171182262912212348_2.jpg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>60.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>130</id>
+<title>PRETENDERS II</title>
+<description>PRETENDERS II - THE PRETENDERS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=130&amp;PRETENDERS II</link>
+<image_link>http://localhost/system_day/img/produto/171182308162427869_1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/171182308162427869_2.jpeg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>65.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>131</id>
+<title> SIGN THE TIMES</title>
+<description> SIGN THE TIMES - PRINCE</description>
+<link>http://localhost/system_day_ecommerce/?product-details=131&amp; SIGN THE TIMES</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>120.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>132</id>
+<title>BACK BIRD</title>
+<description>BACK BIRD - DEBBIE HARRY</description>
+<link>http://localhost/system_day_ecommerce/?product-details=132&amp;BACK BIRD</link>
+<image_link>http://localhost/system_day/img/produto/171182349921574048_1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/171182349921574048_2.jpg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>60.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>133</id>
+<title>GRAVE DANGERS UNION</title>
+<description>GRAVE DANGERS UNION - SOUL ASYLUM</description>
+<link>http://localhost/system_day_ecommerce/?product-details=133&amp;GRAVE DANGERS UNION</link>
+<image_link>http://localhost/system_day/img/produto/171182454276146300_1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/171182454276146300_2.jpg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>80.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>134</id>
+<title>HONEY S DEAD</title>
+<description>HONEY S DEAD - THE JESUS AND MARY CHAIN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=134&amp;HONEY S DEAD</link>
+<image_link>http://localhost/system_day/img/produto/171182479838737281_1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/171182479838737281_2.jpg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>120.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>135</id>
+<title>THE VERY BEST OF THE BYRDS</title>
+<description>THE VERY BEST OF THE BYRDS - THE BYRDS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=135&amp;THE VERY BEST OF THE BYRDS</link>
+<image_link>http://localhost/system_day/img/produto/171182525705403222_1.jpg</image_link>
+<image_link>http://localhost/system_day/img/produto/171182525705403222_2.jpg</image_link>
+<availability>in stock</availability>
+<condition>used</condition>
+<price>60.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>137</id>
+<title>UM BANDA UM</title>
+<description>UM BANDA UM - GILBERTO GIL</description>
+<link>http://localhost/system_day_ecommerce/?product-details=137&amp;UM BANDA UM</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>70.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>150</id>
+<title>RASTAMAN VIBRATION</title>
+<description>RASTAMAN VIBRATION - BOB  MARLEY &amp; THE  WAILERS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=150&amp;RASTAMAN VIBRATION</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>160.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>153</id>
+<title>TEXAS  FLOOD</title>
+<description>TEXAS  FLOOD - STIVIE RAY VAUGHAN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=153&amp;TEXAS  FLOOD</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>40.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>158</id>
+<title>CONCIERTO  PARA BANDONEON</title>
+<description>CONCIERTO  PARA BANDONEON - ASTOR  PIAZZOLA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=158&amp;CONCIERTO  PARA BANDONEON</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>45.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>159</id>
+<title>BEHAVIOR</title>
+<description>BEHAVIOR - PETSHOP BOYS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=159&amp;BEHAVIOR</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>50.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>160</id>
+<title>THE WORL DDONT LIISTEN</title>
+<description>THE WORL DDONT LIISTEN - THE  SMITHS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=160&amp;THE WORL DDONT LIISTEN</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>80.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>164</id>
+<title>VOL 4</title>
+<description>VOL 4 - BLACK SABBATH</description>
+<link>http://localhost/system_day_ecommerce/?product-details=164&amp;VOL 4</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>110.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>165</id>
+<title>III</title>
+<description>III - LED ZEPPELIN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=165&amp;III</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>100.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>166</id>
+<title>KILLERS</title>
+<description>KILLERS - IRON MAIDEN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=166&amp;KILLERS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>150.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Internacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>118</id>
+<title>O OUTRO</title>
+<description>O OUTRO - TRILHA SONORA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=118&amp;O OUTRO</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>30.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>120</id>
+<title>A MESMA PESSOA</title>
+<description>A MESMA PESSOA - FAGNER</description>
+<link>http://localhost/system_day_ecommerce/?product-details=120&amp;A MESMA PESSOA</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>25.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>121</id>
+<title>BABY</title>
+<description>BABY - GAL COSTA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=121&amp;BABY</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>30.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>125</id>
+<title>UNS</title>
+<description>UNS - CAETANO VELOSO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=125&amp;UNS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>65.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>126</id>
+<title>CAETANEAR</title>
+<description>CAETANEAR - CAETANO VELOSO</description>
+<link>http://localhost/system_day_ecommerce/?product-details=126&amp;CAETANEAR</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>65.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>151</id>
+<title>SAMBA  ESQUEMA NOVO</title>
+<description>SAMBA  ESQUEMA NOVO - JORGE BEN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=151&amp;SAMBA  ESQUEMA NOVO</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>200.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>152</id>
+<title>CORAÇÃO BOBO</title>
+<description>CORAÇÃO BOBO - ALCEU  VALENCA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=152&amp;CORAÇÃO BOBO</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>40.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>155</id>
+<title>UAH-BAP-LU-BAP-LAH-BéIN-BUM!</title>
+<description>UAH-BAP-LU-BAP-LAH-BéIN-BUM! - RAUL SEIXAS</description>
+<link>http://localhost/system_day_ecommerce/?product-details=155&amp;UAH-BAP-LU-BAP-LAH-BéIN-BUM!</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>55.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>157</id>
+<title>10 ANOS DEPOIS</title>
+<description>10 ANOS DEPOIS - JORGE BEN</description>
+<link>http://localhost/system_day_ecommerce/?product-details=157&amp;10 ANOS DEPOIS</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>65.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>161</id>
+<title>CAVALO DE PAU</title>
+<description>CAVALO DE PAU - ALCEU VALENÇA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=161&amp;CAVALO DE PAU</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>used</condition>
+<price>45.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>162</id>
+<title>BUMBA MEU BOI DE  AXIXA</title>
+<description>BUMBA MEU BOI DE  AXIXA - BUMBA MEU BOI DE  AXIXA</description>
+<link>http://localhost/system_day_ecommerce/?product-details=162&amp;BUMBA MEU BOI DE  AXIXA</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>out of stock</availability>
+<condition>new</condition>
+<price>20.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Usados-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>105</id>
+<title>SOULVENIR</title>
+<description>SOULVENIR - SOULVENIR - GALAXY SPECIES</description>
+<link>http://localhost/system_day_ecommerce/?product-details=105&amp;SOULVENIR</link>
+<image_link>http://localhost/system_day/img/produto/674fae76c1daa1a22820a06ed3706f27.png</image_link>
+<image_link>http://localhost/system_day/img/produto/170939141039005524_1.png</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>185.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Selo-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>149</id>
+<title>BASTTARDZ</title>
+<description>BASTTARDZ - BRAZIL COM Z E AUSCHWITZ TROPICAL (EDIÇÃO ESPECIAL)</description>
+<link>http://localhost/system_day_ecommerce/?product-details=149&amp;BASTTARDZ</link>
+<image_link>http://localhost/system_day/img/produto/5f9af38881cdfc20a838869e583a6000_1.png</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>175.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Selo-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+<item>
+<id>171</id>
+<title>TESTE</title>
+<description>TESTE - BRAZIL COM Z E AUSCHWITZ TROPICAL (EDIÇÃO ESPECIAL)</description>
+<link>http://localhost/system_day_ecommerce/?product-details=171&amp;TESTE</link>
+<image_link>http://localhost/system_day/img/img_prd_default.jpg</image_link>
+<availability>in stock</availability>
+<condition>new</condition>
+<price>120.00 BRL</price>
+<brand></brand>
+<google_product_category>Media &gt; Music &amp; Audio &gt; Music Records</google_product_category>
+<fb_product_category>146</fb_product_category>
+<quantity_to_sell_on_facebook></quantity_to_sell_on_facebook>
+<sale_price></sale_price>
+<sale_price_effective_date></sale_price_effective_date>
+<item_group_id>Selo-Nacionais</item_group_id>
+<status>active</status>
+<gender></gender>
+<color></color>
+<size></size>
+<age_group></age_group>
+<material></material>
+<pattern></pattern>
+<shipping>BR::Standard:10.0 BRL</shipping>
+<shipping_weight></shipping_weight>
+<video_url></video_url>
+<video_tag></video_tag>
+<style></style>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 0.75em;
+}
+
+.recibo {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+
+.recibo-details-header{
+    text-align: left;
+    margin-top: 20px;
+    align-items: flex-start;
+    /* Alinhar ao topo */
+
+    display: flex;
+}
+
+.recibo-details-header p {
+    margin: 5px 0;
+}
+
+
+.recibo-details-info{
+
+}
+.recibo-details-info p {
+    margin: 5px 0;
+}
+
+
+
+.product-list {
+    padding: 0px;
+}
+
+.product-list ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+.product-list h3 {
+    text-align: center;
+}
+
+.product-item {
+    margin-bottom: 10px;
+}
+
+.group-text-title-produto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.subproduct-list {
+    margin-left: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+.subproduct-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.qr-code-container{
+    text-align: center;
+}
+
+.qr-code-container img {
+    max-width: 80%;
+    height: auto;
+   
+
+}
+
+.divider {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.divider hr {
+    border-top: 1px dashed #ccc;
+    margin: 0;
+}
+
