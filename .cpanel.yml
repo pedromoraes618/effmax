@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/yvzvxg2y0v4i/public_html/brisadiscos
+    - /bin/cp -r * $DEPLOYPATH
