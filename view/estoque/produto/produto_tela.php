@@ -252,26 +252,28 @@ include "../../../modal/estoque/produto/gerenciar_produto.php";
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2 ">
-                            <h2 class="accordion-header ">
-                                <button class="accordion-button text-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
-                                    Opções de produto
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show ">
-                                <div class="accordion-body">
-                                    <div class="box-tabela-variantes"></div>
-                                    <div class="box-opcao-produtos mb-3" style="width: 50%;">
-                                        <div class="box-item">
-                                            <h6>Seu produto tem diferentes opções como tamanho, cor ou material? Adicione-as aqui.</h6>
+                        <?php if (empty($valida_produto_variante)) { ?>
+                            <div class="accordion-item mb-2 ">
+                                <h2 class="accordion-header ">
+                                    <button class="accordion-button text-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                                        Opções de produto
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show ">
+                                    <div class="accordion-body">
+                                        <div class="box-tabela-variantes"></div>
+                                        <div class="box-opcao-produtos mb-3" style="width: 50%;">
+                                            <div class="box-item">
+                                                <h6>Seu produto tem diferentes opções como tamanho, cor ou material? Adicione-as aqui.</h6>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="d-grid gap-2 d-md-block">
-                                        <button type="button" class="btn btn-sm btn-primary opcao_produto"><i class="bi bi-plus-circle"></i> Adicionar opção</button>
+                                        <div class="d-grid gap-2 d-md-block">
+                                            <button type="button" class="btn btn-sm btn-primary opcao_produto"><i class="bi bi-plus-circle"></i> Adicionar opção</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        <?php } ?>
                         <div class="accordion-item mb-2 ">
                             <h2 class="accordion-header ">
                                 <button class="accordion-button text-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="true" aria-controls="panelsStayOpen-collapseFour">

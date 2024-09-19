@@ -76,6 +76,9 @@ if (isset($_GET['tela_produto']) or isset($_GET['consultar_produto_tela'])) {
    include "../../../funcao/funcao.php";
    $altera_estoque = consulta_tabela($conecta, 'tb_parametros', 'cl_id', '104', 'cl_valor');
    $altera_preco = consulta_tabela($conecta, 'tb_parametros', 'cl_id', '25', 'cl_valor');
+
+   $form_id = isset($_GET['form_id']) ? $_GET['form_id'] : 0;
+   $valida_produto_variante = consulta_tabela($conecta, 'tb_produtos', 'cl_id', $form_id, 'cl_codigo_nf_pai');
 }
 
 if (isset($_GET['consultar_marcadores'])) {
@@ -1006,6 +1009,7 @@ if (isset($_POST['formulario_produto'])) {
          if ($resultados_prd_pai) {
             foreach ($resultados_prd_pai as $linha) {
                $produto_id = ($linha['cl_id']);
+               $descricao_produto = ($linha['cl_descricao']);
             }
          }
       }
@@ -1052,20 +1056,37 @@ if (isset($_POST['formulario_produto'])) {
                      if (!$inserir_variante) {
                         $erro = true;
                         break;
+                     } else {
+                        $mensagem = utf8_decode("Adicionou uma nova variação $nome_opcao: $variante para o produto $descricao_produto");
+                        registrar_log($conecta, $nome_usuario_logado, $data, $mensagem);
                      }
                      //  }
                   }
                }
             }
 
+            /*VERIFICAR SE O PRODUTO TEM MOVIMENTAÇÃO NO SISTEMA */
 
-            $query = "DELETE FROM tb_produtos where cl_codigo_nf_pai ='$codigo_nf'"; //DELETAR O PRODUTO
-            $delete = mysqli_query($conecta, $query);
-            if (!$delete) {
-               $retornar["dados"] =  array("sucesso" => false, "title" => "Erro ao remover os produtos");
-               echo json_encode($retornar);
-               exit;
+            // Verifica se a variante está presente na coluna cl_variacao de algum produto
+            $query = "SELECT * FROM tb_produtos where cl_codigo_nf_pai ='$codigo_nf'";
+            $consulta_produto = mysqli_query($conecta, $query);
+            if (mysqli_num_rows($consulta_produto) > 0) {
+               while ($linha = mysqli_fetch_assoc($consulta_produto)) {
+                  $produto_id_filho = $linha['cl_id'];
+                  $valida_mov_produto = consulta_tabela_query($conecta, "SELECT * FROM tb_ajuste_estoque where
+                  cl_produto_id ='$produto_id_filho' and cl_ajuste_inicial ='0' ", 'cl_id');
+                  if (empty($valida_mov_produto)) {
+                     $query = "DELETE FROM tb_produtos where cl_id ='$produto_id_filho'"; //DELETAR O PRODUTO
+                     $delete = mysqli_query($conecta, $query);
+                     if (!$delete) {
+                        $retornar["dados"] =  array("sucesso" => false, "title" => "Erro ao remover os produtos");
+                        echo json_encode($retornar);
+                        exit;
+                     }
+                  }
+               }
             }
+
 
             // Função para gerar todas as combinações possíveis de variações
             function gerar_combinacoes($variações)
@@ -1141,6 +1162,7 @@ if (isset($_POST['formulario_produto'])) {
                foreach ($resultados as $linha) {
                   $variante_id = ($linha['cl_id']);
                   $variante_descricao = ($linha['cl_valor']);
+                  $opcao_variacao = ($linha['cl_descricao']);
                   // $produto_id_filho = ($linha['cl_produto_id']);
                   // Verifica se o valor de $variante_descricao está no array $variantes_opcao
                   if (!in_array($variante_descricao, $variantes_opcao)) {  // O valor não está contido no array $variantes_opcao
@@ -1153,12 +1175,52 @@ if (isset($_POST['formulario_produto'])) {
                         $erro = true;
                         break;
                      } else {
-                        // $query = "DELETE FROM tb_produtos where cl_id ='$produto_id_filho'"; //DELETAR O PRODUTO
-                        // $delete = mysqli_query($conecta, $query);
-                        // if (!$delete) {
-                        //    $erro = true;
-                        //    break;
-                        // }
+                        $mensagem = utf8_decode("Removeu a variação $opcao_variacao: $variante_descricao para o produto $descricao_produto");
+                        registrar_log($conecta, $nome_usuario_logado, $data, $mensagem);
+
+                        //       // Verifica se a variante está presente na coluna cl_variacao de algum produto
+                        //       $query = "SELECT * FROM tb_produtos where cl_codigo_nf_pai ='$codigo_nf'";
+                        //       $consulta_produto = mysqli_query($conecta, $query);
+                        //       if (mysqli_num_rows($consulta_produto) > 0) {
+                        //          while ($linha = mysqli_fetch_assoc($consulta_produto)) {
+                        //             $produto_id_filho = $linha['cl_id'];
+                        //             $valida_mov_produto = consulta_tabela_query($conecta, "SELECT * FROM tb_ajuste_estoque where
+                        // cl_produto_id ='$produto_id_filho' and cl_ajuste_inicial ='0' ", 'cl_id');
+                        //             if (empty($valida_mov_produto)) {
+                        //                $query = "DELETE FROM tb_produtos where cl_id ='$produto_id_filho'"; //DELETAR O PRODUTO
+                        //                $delete = mysqli_query($conecta, $query);
+                        //                if (!$delete) {
+                        //                   $retornar["dados"] =  array("sucesso" => false, "title" => "Erro ao remover os produtos");
+                        //                   echo json_encode($retornar);
+                        //                   exit;
+                        //                }
+                        //             }
+                        //          }
+                        //       }
+
+                        //    Verifica se a variante está presente na coluna cl_variacao de algum produto
+                        $query = "SELECT cl_id, cl_variacao FROM tb_produtos WHERE FIND_IN_SET('$variante_id', cl_variacao)";
+                        $result = mysqli_query($conecta, $query);
+
+                        if (mysqli_num_rows($result) > 0) {
+                           while ($produto = mysqli_fetch_assoc($result)) {
+                              $produto_id = $produto['cl_id'];
+                              $variacao = $produto['cl_variacao'];
+
+                              // Remove o ID da variante da string cl_variacao
+                              $novas_variacoes = array_diff(explode(',', $variacao), array($variante_id));
+                              $nova_variacao_str = implode(',', $novas_variacoes);
+
+                              // Faz o update na tabela tb_produtos
+                              $update_query = "UPDATE tb_produtos SET cl_variacao = '$nova_variacao_str',cl_status_ativo='NAO',cl_codigo_nf_pai='' WHERE cl_id = '$produto_id'";
+                              $update = mysqli_query($conecta, $update_query);
+
+                              if (!$update) {
+                                 $erro = true;
+                                 break;
+                              }
+                           }
+                        }
                      }
                   }
                }
@@ -1195,6 +1257,9 @@ if (isset($_POST['formulario_produto'])) {
                         if (!$inserir_variante) {
                            $erro = true;
                            break;
+                        } else {
+                           $mensagem = utf8_decode("Adicionou uma nova variação $nome_opcao: $variante para o produto $descricao_produto");
+                           registrar_log($conecta, $nome_usuario_logado, $data, $mensagem);
                         }
                         //  }
                      }
@@ -1208,14 +1273,14 @@ if (isset($_POST['formulario_produto'])) {
             $update = mysqli_query($conecta, $query);
 
 
-            //Deletar todos os produtos variantes
-            $query = "DELETE FROM tb_produtos where cl_codigo_nf_pai ='$codigo_nf'"; //DELETAR O PRODUTO
-            $delete = mysqli_query($conecta, $query);
-            if (!$delete) {
-               $retornar["dados"] =  array("sucesso" => false, "title" => "Erro ao remover os produtos");
-               echo json_encode($retornar);
-               exit;
-            }
+            // //Deletar todos os produtos variantes
+            // $query = "DELETE FROM tb_produtos where cl_codigo_nf_pai ='$codigo_nf'"; //DELETAR O PRODUTO
+            // $delete = mysqli_query($conecta, $query);
+            // if (!$delete) {
+            //    $retornar["dados"] =  array("sucesso" => false, "title" => "Erro ao remover os produtos");
+            //    echo json_encode($retornar);
+            //    exit;
+            // }
 
             // Função para gerar todas as combinações possíveis de variações
             function gerar_combinacoes($variações)
@@ -1254,22 +1319,26 @@ if (isset($_POST['formulario_produto'])) {
                   'codigo_nf_novo' => $codigo_produto_nf_novo,
                   'variacao' => $combinacao_ids
                );
-               $produto_id_variante = insert_produto_variante($dados); //INSERIR O PRODUTO NO ESTOQUE
-               if ($produto_id_variante === false) {
-                  $erro = true;
-                  break;
+
+               $valida_variacao = consulta_tabela_query($conecta, "SELECT * FROM tb_produtos where cl_variacao ='$combinacao_ids' and cl_codigo_nf_pai ='$codigo_nf' ", 'cl_id'); //verificar se já existe o produto com a mesma variação
+               if (empty($valida_variacao)) {
+                  $produto_id_variante = insert_produto_variante($dados); //INSERIR O PRODUTO NO ESTOQUE
+                  if ($produto_id_variante === false) {
+                     $erro = true;
+                     break;
+                  }
                }
             }
 
             if ($erro == false) {
                $retornar["dados"] = array("sucesso" => true, "title" => "Opção alterada com sucesso");
-               $mensagem = utf8_decode("Usúario $nome_usuario_logado alterou a opção de variantes $opcao_descricao dp produto de código $produto_id");
+               $mensagem = utf8_decode("Usúario $nome_usuario_logado alterou a opção de variantes do produto de código $produto_id");
                registrar_log($conecta, $nome_usuario_logado, $data, $mensagem);
                mysqli_commit($conecta);
             } else {
                mysqli_rollback($conecta);
                $retornar["dados"] = array("sucesso" => false, "title" => "Erro, entre em contato com o suporte");
-               $mensagem = utf8_decode("Tentativa sem sucesso de alterar opções de variantes $opcao_descricao do produto de código $produto_id");
+               $mensagem = utf8_decode("Tentativa sem sucesso de alterar opção de variantes do produto de código $produto_id");
                registrar_log($conecta, $nome_usuario_logado, $data, $mensagem);
             }
          }

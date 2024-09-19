@@ -92,8 +92,8 @@ include "../../../modal/estoque/produto/gerenciar_produto.php";
                                             <div class="col-md-3  mb-2">
                                                 <label for="grupo_estoque" class="form-label">Categoria *</label>
                                                 <select name="grupo_estoque" title="ao selecionar a categoria, os 
-                                                campos serão preenchidos automaticamente, para desativar essa funcionalidade verifique com o suporte" 
-                                                class="select2-modal chosen-select" id="grupo_estoque">
+                                                campos serão preenchidos automaticamente, para desativar essa funcionalidade verifique com o suporte"
+                                                    class="select2-modal chosen-select" id="grupo_estoque">
                                                     <option value="0">Selecione..</option>
                                                     <?php
                                                     $resultados = consulta_linhas_tb($conecta, 'tb_subgrupo_estoque');
@@ -156,26 +156,28 @@ include "../../../modal/estoque/produto/gerenciar_produto.php";
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item mb-2 ">
-                            <h2 class="accordion-header ">
-                                <button class="accordion-button text-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
-                                    Opções de produto
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show ">
-                                <div class="accordion-body">
-                                    <div class="box-tabela-variantes"></div>
-                                    <div class="box-opcao-produtos mb-3" style="width: 50%;">
-                                        <div class="box-item">
-                                            <h6>Seu produto tem diferentes opções como tamanho, cor ou material? Adicione-as aqui.</h6>
+                        <?php if (empty($valida_produto_variante)) { ?>
+                            <div class="accordion-item mb-2 ">
+                                <h2 class="accordion-header ">
+                                    <button class="accordion-button text-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="true" aria-controls="panelsStayOpen-collapseEight">
+                                        Opções de produto
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse show ">
+                                    <div class="accordion-body">
+                                        <div class="box-tabela-variantes"></div>
+                                        <div class="box-opcao-produtos mb-3" style="width: 50%;">
+                                            <div class="box-item">
+                                                <h6>Seu produto tem diferentes opções como tamanho, cor ou material? Adicione-as aqui.</h6>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="d-grid gap-2 d-md-block">
-                                        <button type="button" class="btn btn-sm btn-primary opcao_produto"><i class="bi bi-plus-circle"></i> Adicionar opção</button>
+                                        <div class="d-grid gap-2 d-md-block">
+                                            <button type="button" class="btn btn-sm btn-primary opcao_produto"><i class="bi bi-plus-circle"></i> Adicionar opção</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        <?php } ?>
                         <div class="accordion-item mb-2 ">
                             <h2 class="accordion-header ">
                                 <button class="accordion-button text-dark fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
@@ -360,18 +362,18 @@ include "../../../modal/estoque/produto/gerenciar_produto.php";
 
                                         <div class=" col-md   mb-2">
                                             <label for="cst_pis_s" class="form-label">Cst Pis E</label>
-                                            <input type="text" list="datalistOptionsPisE" class="form-control inputNumber" id="cst_pis_e" name="cst_pis_e"  placeholder="Ex. 01" value="">
+                                            <input type="text" list="datalistOptionsPisE" class="form-control inputNumber" id="cst_pis_e" name="cst_pis_e" placeholder="Ex. 01" value="">
                                         </div>
 
 
                                         <div class="col-md   mb-2">
                                             <label for="cst_cofins_s" class="form-label">Cst Cofins S</label>
-                                            <input type="text" list="datalistOptionsCofinsS" class="form-control inputNumber" id="cst_cofins_s" name="cst_cofins_s"  placeholder="Ex. 01" value="">
+                                            <input type="text" list="datalistOptionsCofinsS" class="form-control inputNumber" id="cst_cofins_s" name="cst_cofins_s" placeholder="Ex. 01" value="">
                                         </div>
 
                                         <div class="col-md   mb-2">
                                             <label for="cst_cofins_e" class="form-label">Cst Cofins E</label>
-                                            <input type="text" list="datalistOptionsCofinsE" class="form-control inputNumber" id="cst_cofins_e" name="cst_cofins_e"  placeholder="Ex. 01" value="">
+                                            <input type="text" list="datalistOptionsCofinsE" class="form-control inputNumber" id="cst_cofins_e" name="cst_cofins_e" placeholder="Ex. 01" value="">
                                         </div>
                                     </div>
                                 </div>
