@@ -6,7 +6,7 @@
         <div class="col">
             <p>@Todos direitos reservados a Effmax</p>
             <p>phdm2798@gmail.com</p>
-            <p>Versão 19.09.24 1.4.0</p>
+            <p>Versão 19.09.24 1.4.1</p>
         </div>
     </div>
 </div>  
