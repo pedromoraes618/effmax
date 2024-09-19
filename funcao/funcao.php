@@ -3702,3 +3702,636 @@ function sendEmailLoja($mail, $email_destinatario, $assunto, $attbody, $html) //
 //     $matricula =  isset($dados['matricula']) ? $dados['matricula'] : ''; //id das serie
 
 // }
+
+
+function enviar_nf_loja($conecta, $id_nf)
+{
+
+    global  $conecta;
+    global $data;
+
+    $sub_acao = "enviar_nf";
+    $ambiente = verficar_paramentro($conecta, "tb_parametros", "cl_id", "35"); // 1 - homologacao 2 - producao
+    $opcao_nfs = verficar_paramentro($conecta, "tb_parametros", "cl_id", "133"); // 1 - nacional 2 - prefeitura
+
+    if ($ambiente == "1") {
+        $server = verficar_paramentro($conecta, "tb_parametros", "cl_id", "60");
+        $login =  verficar_paramentro($conecta, "tb_parametros", "cl_id", "58"); //token para homologacao
+        $server_danfe  = verficar_paramentro($conecta, "tb_parametros", "cl_id", "68");
+    } elseif ($ambiente == "2") {
+        $server =  verficar_paramentro($conecta, "tb_parametros", "cl_id", "61");
+        $login = verficar_paramentro($conecta, "tb_parametros", "cl_id", "59"); //token para producao
+        $server_danfe =  verficar_paramentro($conecta, "tb_parametros", "cl_id", "69");
+    } else {
+        $server = "";
+        $login = "";
+    }
+    $password = "";
+
+    $select = "SELECT * from tb_nf_saida where cl_id = $id_nf";
+    $consultar_nf = mysqli_query($conecta, $select);
+    $linha = mysqli_fetch_assoc($consultar_nf);
+    $numero_nf = ($linha['cl_numero_nf']);
+    $serie_nf = ($linha['cl_serie_nf']);
+    $codigo_nf = ($linha['cl_codigo_nf']);
+    $parceiro_id = ($linha['cl_parceiro_id']);
+    $finalidade_id = ($linha['cl_finalidade']);
+    $tipo_documento = ($linha['cl_tipo_documento_nf']);
+    $forma_pagamento = ($linha['cl_forma_pagamento_id']);
+    $tipo_forma_pagamento = (consulta_tabela($conecta, "tb_forma_pagamento", "cl_id", $forma_pagamento, "cl_tipo_pagamento_nf"));
+    if ($tipo_forma_pagamento == 0) {
+        $tipo_forma_pagamento = 99; //outros
+    }
+    $cfop = ($linha['cl_cfop']);
+    $primeiroNumeroCfop = substr($cfop, 0, 1); // Extrai o primeiro caractere (índice 0)
+    if ($primeiroNumeroCfop != 6) { //operação interna // nfc
+        $local_destino = 1;
+    } else { //operação externa
+        $local_destino = 2;
+    }
+    $descricao_cfop = utf8_encode(consulta_tabela($conecta, "tb_cfop", "cl_codigo_cfop", $cfop, "cl_desc_cfop"));
+    $frete = ($linha['cl_tipo_frete_id']);
+
+
+    $desconto_nota = $linha['cl_valor_desconto'];
+    $observacao = utf8_encode($linha['cl_observacao']);
+    $informacao_adicional_servico = ($linha['cl_observacao']);
+    $numero_pedido = $linha['cl_numero_pedido'];
+
+    $visualizar_duplicata = $linha['cl_visualizar_duplicata'];
+    $cpf_cnpj_avulso_nf = $linha['cl_cpf_cnpj_avulso_nf'];
+
+    /*transporadora */
+    $placa = $linha['cl_placa_trans'];
+    $uf_veiculo = $linha['cl_uf_veiculo_trans'];
+    $quantidade_tra = $linha['cl_quantidade_trans'];
+    $especie_tra = $linha['cl_especie_trans'];
+
+    $peso_bruto = $linha['cl_peso_bruto'];
+    $peso_liquido = $linha['cl_peso_liquido'];
+    $outras_despesas = $linha['cl_valor_outras_despesas'];
+    $valor_frete = $linha['cl_valor_frete'];
+
+    $valor_seguro = $linha['cl_valor_seguro'];
+
+    $chave_acesso_ref = $linha['cl_chave_acesso_referencia']; //devolucao
+    $numero_nf_ref = $linha['cl_numero_nf_ref']; //devolucao
+    $retem_iss = $linha['cl_retem_iss']; //serviço
+
+    $caminho_pdf_nf = $linha['cl_pdf_nf'];
+    $caminho_xml_nf = $linha['cl_caminho_xml_nf'];
+    $transportadora_id = $linha['cl_transportadora_id'];
+    $totais = resumo_valor_nf_saida($conecta, $codigo_nf); //informações sobre os itens na nota
+    $valor_total_produtos = $totais['total_valor_produtos'];
+    $valor_total_produtos = abs($valor_total_produtos);     // Transformando em positivo quando se tratar de estorno ou devoluçao
+    $icms_sub_nota = $totais['total_valor_icms_sub'];
+    $ipi_nota = $totais['total_valor_ipi'];
+
+
+    /* Serviço */
+    $valor_pis_servico = ($linha['cl_valor_pis_servico']);
+    $valor_cofins_servico = ($linha['cl_valor_cofins_servico']);
+    $valor_deducoes = ($linha['cl_valor_deducoes']);
+    $valor_inss = ($linha['cl_valor_inss']);
+    $valor_ir = ($linha['cl_valor_ir']);
+    $valor_csll = ($linha['cl_valor_csll']);
+    $valor_iss = ($linha['cl_valor_iss']);
+    $valor_iss_retido = ($linha['cl_valor_iss_retido']);
+    $valor_outras_retencoes = ($linha['cl_valor_outras_retencoes']);
+    $valor_base_calculo = ($linha['cl_valor_base_calculo']);
+    $aliq_servico = ($linha['cl_valor_aliquota']);
+    $valor_desconto_condicionado = ($linha['cl_valor_desconto_condicionado']);
+    $valor_desconto_incondicionado = ($linha['cl_valor_desconto_incondicionado']);
+    $atividade_id = ($linha['cl_atividade_id']);
+    $natureza_operacao_servico = ($linha['cl_natureza_operacao_servico']);
+    $intermediario_id = ($linha['cl_intermediario_id']);
+
+
+    $valor_total_nota = $valor_total_produtos + $icms_sub_nota + $ipi_nota + $valor_frete + $outras_despesas + $valor_seguro - $desconto_nota;
+
+
+
+    /*itens */
+    $select = "SELECT * from tb_nf_saida_item where cl_codigo_nf = '$codigo_nf'";
+    $consultar_nf_item = mysqli_query($conecta, $select);
+
+
+
+    /*cliente obrigatorio */
+    $select = "SELECT * from tb_parceiros where cl_id = $parceiro_id";
+    $consultar_destinatario = mysqli_query($conecta, $select);
+    $linha = mysqli_fetch_assoc($consultar_destinatario);
+    $razao_social_dest = utf8_encode($linha['cl_razao_social']);
+    $nome_fantasia_dest = utf8_encode($linha['cl_nome_fantasia']);
+    $cpfcnpj_dest = $linha['cl_cnpj_cpf'];
+    $inscricao_estadual_dest = $linha['cl_inscricao_estadual'];
+
+    if (identifyCpfOrCnpj($cpfcnpj_dest) == "0" or identifyCpfOrCnpj($cpfcnpj_dest) == "-1") { //funcao para verificar se o cliente é cpf ou cnpj //0-cpf 1-cnpj
+        $cpf_dest = $cpfcnpj_dest;
+        $cnpj_dest = "";
+        $inscricao_estadual_dest = "";
+    } elseif (identifyCpfOrCnpj($cpfcnpj_dest) == "1") { //cnpj
+        $cpf_dest = "";
+        $cnpj_dest = $cpfcnpj_dest;
+        $inscricao_estadual_dest = $inscricao_estadual_dest;
+    }
+
+    $endereco_dest = utf8_encode($linha['cl_endereco']);
+    $cidade_id_dest = ($linha['cl_cidade_id']);
+    $cidade_dest = utf8_encode(consulta_tabela($conecta, "tb_cidades", "cl_id", $cidade_id_dest, 'cl_nome'));
+    $codigo_municipio_destinatario = (consulta_tabela($conecta, "tb_cidades", "cl_id", $cidade_id_dest, 'cl_ibge'));
+    $cep_dest = $linha['cl_cep'];
+    $bairro_dest = utf8_encode($linha['cl_bairro']);
+    $numero_dest = utf8_encode($linha['cl_numero']);
+    $numero_dest = $numero_dest != "" ? $numero_dest : 'SN';
+
+    $estado_id_dest = $linha['cl_estado_id'];
+    $estado_dest = consulta_tabela($conecta, "tb_estados", "cl_id", $estado_id_dest, 'cl_uf');
+    $aliq_interna_dest = consulta_tabela($conecta, "tb_estados", "cl_id", $estado_id_dest, 'cl_aliq'); //aliq interna do parceiro
+    $telefone_dest = $linha['cl_telefone'];
+    $email_dest = $linha['cl_email'];
+
+
+
+
+    /*emitente*/
+    $select = "SELECT * FROM tb_empresa where cl_id = '1' ";
+    $consultar_emitente = mysqli_query($conecta, $select);
+    $linha = mysqli_fetch_assoc($consultar_emitente);
+    $razao_social_emit = utf8_encode($linha['cl_razao_social']);
+    $nome_fantasia_emit = utf8_encode($linha['cl_nome_fantasia']);
+    $inscricao_estadual_emit = ($linha['cL_inscricao_estadual']);
+    $inscricao_municipal_emit = ($linha['cl_inscricao_municipal']);
+    $cnpj_emit = ($linha['cl_cnpj']);
+    $endereco_emit = utf8_encode($linha['cl_endereco']);
+    $bairro_emit = utf8_encode($linha['cl_bairro']);
+    $cidade_emit = utf8_encode($linha['cl_cidade']);
+    $estado_emit = utf8_encode($linha['cl_estado']); //descricao
+    $numero_emit = ($linha['cl_numero']); //descricao
+    $cep_emit = ($linha['cl_cep']); //descricao
+    $email_emit = ($linha['cl_email']);
+    $telefone_emit = ($linha['cl_telefone']);
+    $codigo_municipio = $linha['cl_codigo_municipio']; //ibge da cidade
+    $codigo_cnae = $linha['cl_cnae']; //ibge da cidade
+
+
+
+    /*transporadora */
+    if ($transportadora_id != "") { //verificar se tem transportadora 
+        $select = "SELECT * from tb_parceiros where cl_id = $transportadora_id";
+        $consultar_transportadora = mysqli_query($conecta, $select);
+        $linha = mysqli_fetch_assoc($consultar_transportadora);
+        $razao_social_trans = utf8_encode($linha['cl_razao_social']);
+        $cpfcnpj_trans = $linha['cl_cnpj_cpf'];
+        $inscricao_estadual_trans = $linha['cl_inscricao_estadual'];
+        $endereco_trans = utf8_encode($linha['cl_endereco']);
+        $cidade_id_trans = ($linha['cl_cidade_id']);
+        $cidade_trans = utf8_encode(consulta_tabela($conecta, "tb_cidades", "cl_id", $cidade_id_trans, 'cl_nome'));
+
+        $cep_trans = $linha['cl_cep'];
+        $bairro_trans = utf8_encode($linha['cl_bairro']);
+        $numero_trans = utf8_encode($linha['cl_numero']);
+        $estado_id_trans = $linha['cl_estado_id'];
+        $estado_trans = consulta_tabela($conecta, "tb_estados", "cl_id", $estado_id_trans, 'cl_uf');
+
+        $telefone_trans = $linha['cl_telefone'];
+        $placa_trans = $placa;
+        $uf_veiculo_trans = $uf_veiculo;
+
+        $quantidade_vl = $quantidade_tra;
+        $especie_vl = $especie_tra;
+        $peso_bruto_vl = $peso_bruto;
+        $peso_liquido_vl = $peso_liquido;
+    } else {
+        $quantidade_vl = "";
+        $especie_vl = "";
+        $peso_bruto_vl = "";
+        $peso_liquido_vl = "";
+
+        $cpfcnpj_trans = "";
+        $razao_social_trans = "";
+        $inscricao_estadual_trans = "";
+        $endereco_trans = "";
+        $cidade_trans = "";
+        $estado_trans = "";
+        $placa_trans = "";
+        $uf_veiculo_trans = "";
+    }
+
+    $ref = $serie_nf . $cnpj_emit . $numero_nf; //numero da nf
+
+
+    // $retornar["dados"] = array("sucesso" => true, "title" => "Nota alterada com sucesso");
+
+    if ($serie_nf == "NFE") {
+        if ($sub_acao == "enviar_nf") { //enviar nfe
+            $nfe = array(
+                "natureza_operacao" => "$descricao_cfop",
+                "data_emissao" => $data,
+                "data_entrada_saida" => $data,
+                "tipo_documento" => $tipo_documento,
+                "finalidade_emissao" => $finalidade_id,
+                "serie" => "1",
+                "numero" => $numero_nf,
+                "cnpj_emitente" => "$cnpj_emit",
+                "nome_emitente" => "$razao_social_emit",
+                "nome_fantasia_emitente" => "$nome_fantasia_emit",
+                "logradouro_emitente" => "$endereco_emit",
+                "numero_emitente" => "$numero_emit",
+                "bairro_emitente" => "$bairro_emit",
+                "municipio_emitente" => "$cidade_emit",
+                "uf_emitente" => "$estado_emit",
+                "cep_emitente" => "$cep_emit",
+                "telefone_emitente" => "$telefone_emit",
+
+                "inscricao_estadual_emitente" => "$inscricao_estadual_emit",
+                "nome_destinatario" => "$razao_social_dest",
+                "cpf_destinatario" => $cpf_dest,
+                "cnpj_destinatario" => $cnpj_dest,
+                "inscricao_estadual_destinatario" => $inscricao_estadual_dest,
+                // "indicador_inscricao_estadual_destinatario" => "$indicado_inscricao",
+                "telefone_destinatario" => "$telefone_dest",
+
+                "logradouro_destinatario" => "$endereco_dest",
+                "numero_destinatario" => $numero_dest,
+                "bairro_destinatario" => "$bairro_dest",
+                "municipio_destinatario" => "$cidade_dest",
+                "uf_destinatario" => "$estado_dest",
+                "pais_destinatario" => "Brasil",
+                "cep_destinatario" => "$cep_dest",
+                //"valor_seguro" => "0",
+                //"valor_outras_despesas"=>"$outras_despesas",
+                "valor_total" => "$valor_total_nota",
+                "valor_produtos" => "$valor_total_produtos",
+                "modalidade_frete" => "$frete",
+
+                "informacoes_adicionais_contribuinte" => "$observacao",
+                "pedido_compra" => $numero_pedido,
+                "nome_transportador" => "$razao_social_trans",
+                "cnpj_transportador" => "$cpfcnpj_trans",
+                "inscricao_estadual_transportador" => "$inscricao_estadual_trans",
+                "endereco_transportador" => "$endereco_trans",
+                "municipio_transportador" => "$cidade_trans",
+                "uf_transportador" => "$estado_trans",
+                "veiculo_placa" => "$placa_trans",
+                "veiculo_uf" => "$uf_veiculo_trans",
+
+                "items" => array(),
+                "volumes" => array(),
+                "duplicatas" => array(),
+                "formas_pagamento" => array(),
+                "notas_referenciadas" => array(),
+
+            );
+
+
+            /*duplicatas */
+            $select = "SELECT lcf.* from tb_lancamento_financeiro as lcf inner join tb_forma_pagamento as fpg on fpg.cl_id = lcf.cl_forma_pagamento_id 
+                     where lcf.cl_codigo_nf = '$codigo_nf' and fpg.cl_tipo_pagamento_id ='3'"; //apenas as forma de pagamento que tiver o tipo faturado
+            $consultar_duplicatas = mysqli_query($conecta, $select);
+            $qtd_duplicatas = mysqli_num_rows($consultar_duplicatas);
+            $indicador_pagamento = 0; //a vista
+            if ($qtd_duplicatas > 0 and $visualizar_duplicata == 1) {
+                $numero_duplicata = 0;
+                $duplicatas = array(); // Crie um array para armazenar as duplicatas
+                $indicador_pagamento = 1; //a prazo
+                while ($linha = mysqli_fetch_assoc($consultar_duplicatas)) {
+                    $numero_duplicata = $numero_duplicata + 1;
+                    $data_vencimento = $linha['cl_data_vencimento'];
+                    $valor_liquido = $linha['cl_valor_liquido'];
+
+                    // Adicione os campos da duplicata ao array $duplicata
+                    $duplicata = array(
+                        "numero" => $numero_duplicata,
+                        "data_vencimento" => $data_vencimento,
+                        "valor" => $valor_liquido,
+                        // Adicione outros campos da duplicata, se houver
+                    );
+                    array_push($nfe["duplicatas"], $duplicata);
+                    // // Adicione o array da duplicata ao array de duplicatas
+                    // $duplicatas[] = $duplicata;
+                }
+            }
+
+
+            /*volume transportadora */
+            $volume_trans = array(
+                "quantidade" => "$quantidade_vl",
+                "especie" => "$especie_tra",
+                "peso_liquido" => "$peso_liquido_vl",
+                "peso_bruto" => "$peso_bruto_vl",
+            );
+            array_push($nfe["volumes"], $volume_trans);
+
+            /*devolucao */
+            $nf_referenciada = array(
+                "chave_nfe" => "$chave_acesso_ref",
+            );
+
+
+            if ($chave_acesso_ref != "") { //finaljidade para estorno ou devolução sao necessario referenciar a chave de acesso
+                array_push($nfe["notas_referenciadas"], $nf_referenciada);
+                $fpgmt = array(
+                    "forma_pagamento" => "90", //sem pagamento
+                );
+            } else {
+                $fpgmt = array(
+                    "indicador_pagamento" => "$indicador_pagamento",
+                    "forma_pagamento" => "$tipo_forma_pagamento",
+                    "valor_pagamento" => "$valor_total_nota",
+                );
+            }
+
+            array_push($nfe["formas_pagamento"], $fpgmt);
+            $qtd_prod = mysqli_num_rows($consultar_nf_item);
+
+            if ($valor_frete > 0 and $valor_frete != "") {
+                $valor_frete_item = $valor_frete / $qtd_prod;
+            } else {
+                $valor_frete_item = "0";
+            }
+
+            if ($outras_despesas > 0 and  $outras_despesas != "") {
+                $outras_despesas_item = $outras_despesas / $qtd_prod;
+            } else {
+                $outras_despesas_item = "0";
+            }
+
+            if ($desconto_nota > 0 and  $desconto_nota != "") {
+                $desconto_item = floor($desconto_nota / $qtd_prod * 100) / 100; // Arredonda para duas casas decimais para baixo
+            } else {
+                $desconto_item = "0";
+            }
+
+            if ($valor_seguro > 0 and  $valor_seguro != "") {
+                $valor_seguro_item = $valor_seguro / $qtd_prod;
+            } else {
+                $valor_seguro_item = "0";
+            }
+
+
+
+            $item_nf = 0;
+            // Calcule a diferença entre o desconto total na nota e o total de desconto nos itens
+            $diferenca_desconto = round($desconto_nota - ($desconto_item * $qtd_prod), 2);
+            $verificacao_realizada_desconto = false; // Inicialmente, a verificação não foi realizada
+
+            while ($linha = mysqli_fetch_assoc($consultar_nf_item)) {
+                //   $item_nf = $linha['item'];
+                $item_nf = $item_nf + 1;
+                $id_produto = ($linha['cl_item_id']);
+                $descricao = utf8_encode($linha['cl_descricao_item']);
+                $und = utf8_encode($linha['cl_unidade']);
+                $quantidade = ($linha['cl_quantidade']);
+                $quantidade = abs($quantidade);     // Transformando em positivo quando se tratar de estorno ou devoluçao
+
+                $valor_unitario = ($linha['cl_valor_unitario']);
+                $valor_produto = $quantidade * $valor_unitario;
+
+
+                $ncm = ($linha['cl_ncm']);
+                $cest = ($linha['cl_cest']);
+                $cfop_item = ($linha['cl_cfop']);
+                $cst = ($linha['cl_cst']);
+                $bc_icms = ($linha['cl_base_icms']);
+                $aliq_icms = ($linha['cl_aliq_icms']);
+                $valor_icms = ($linha['cl_icms']);
+                $base_icms_sub = ($linha['cl_base_icms_sbt']);
+                $icms_sub = ($linha['cl_icms_sbt']);
+                $aliq_ipi = ($linha['cl_aliq_ipi']);
+                $valor_ipi = ($linha['cl_ipi']);
+                $ipi_devolvido = ($linha['cl_ipi_devolvido']);
+                $base_pis = ($linha['cl_base_pis']);
+                $valor_pis = ($linha['cl_pis']);
+                $cst_pis = ($linha['cl_cst_pis']);
+                $base_cofins = ($linha['cl_base_cofins']);
+                $valor_cofins = ($linha['cl_cofins']);
+                $cst_cofins = ($linha['cl_cst_cofins']);
+                $base_iss = ($linha['cl_base_iss']);
+                $valor_iss = ($linha['cl_iss']);
+                $gtin = $linha['cl_gtin'];
+                $numero_pedido_item = $linha['cl_numero_pedido']; //numero do pedido de compra
+                $numero_item_pedido = $linha['cl_item_pedido']; //numero do item
+
+                if ($diferenca_desconto < $valor_produto and ($verificacao_realizada_desconto == false)) { //adicionar ao desconto em um item a diferencia para corrir o desconto total
+                    $verificacao_realizada_desconto = true;
+                    $item_nf_verificado = $item_nf;
+                    $desconto_item = $desconto_item + $diferenca_desconto;
+                }
+                if ($sub_acao == "preview_nf") {
+                    $ncm = empty($ncm) ? '00000000' : $ncm;
+                }
+
+                $aliq_cofins = ($base_cofins != 0) ? ($valor_cofins * 100) / $base_cofins : 0; //aligq cofins
+                $aliq_pis = ($base_pis != 0) ? ($valor_pis * 100) / $base_pis : 0; //aliq pis
+
+
+                if (in_array($cst, ['102', '900'])) {
+                    $icms_origem = '0';
+                } elseif (strlen($cst) == 3) {
+                    $icms_origem = substr($cst, 0, 1);
+                } else {
+                    $icms_origem = '0';
+                }
+                $aliq_ipi = $aliq_ipi != "" ? $aliq_ipi : 0;
+                $base_ipi = $valor_ipi > 0 ? $valor_produto : 0;
+                // if ($desconto_nota != 0 and $desconto_nota <= $valor_produto and $valida_desconto == false) {//primeiro produto que suportar o dessconto sera atriuido o desconto total a ele
+                //     $desconto_item = $desconto_nota;
+                //     $valida_desconto = true;
+                // } else {
+                //     $desconto_item = 0;
+                // }
+
+                $item = array(
+                    "numero_item" => "$item_nf",
+                    "codigo_produto" => "$id_produto",
+                    "descricao" => "$descricao",
+                    "cfop" => "$cfop_item",
+                    "unidade_comercial" => "$und",
+                    "quantidade_comercial" => "$quantidade",
+                    "valor_unitario_comercial" => "$valor_unitario",
+                    "valor_unitario_tributavel" => "$valor_unitario",
+                    "unidade_tributavel" => "$und",
+                    "codigo_ncm" => "$ncm",
+                    "cest" => "$cest",
+                    "quantidade_tributavel" => "$quantidade",
+                    "valor_bruto" => "$valor_produto",
+
+                    "valor_outras_despesas" => "$outras_despesas_item",
+                    "valor_frete" => "$valor_frete_item",
+                    "valor_desconto" => "$desconto_item",
+                    "valor_seguro" => "$valor_seguro_item",
+                    "codigo_barras_comercial" => $gtin,
+                    "codigo_barras_tributavel" => $gtin,
+                    "pedido_compra" => "$numero_pedido_item",
+                    "numero_item_pedido_compra" => "$numero_item_pedido",
+
+                    "icms_modalidade_base_calculo" => "3",
+                    "icms_modalidade_base_calculo_st" => "3",
+
+
+                    "icms_situacao_tributaria" => "$cst",
+                    "icms_origem" => "$icms_origem",
+                    "icms_base_calculo" => "$bc_icms",
+                    "icms_valor" => "$valor_icms",
+                    "icms_aliquota" => "$aliq_icms",
+                    "icms_valor_total_st" => "$icms_sub",
+                    "icms_base_calculo_st" => "$base_icms_sub",
+
+                    "ipi_base_calculo" => $base_ipi,
+                    "ipi_aliquota" => $aliq_ipi,
+                    "ipi_valor" => $valor_ipi,
+                    "valor_ipi_devolvido" => $ipi_devolvido,
+
+                    "ipi_situacao_tributaria" => "50", //saída tributada
+                    "ipi_quantidade_selo_controle" => "1",
+                    "ipi_codigo_enquadramento_legal" => "101",
+                    "ipi_codigo_selo_controle" => "9710-01", // Produto Nacional
+
+                    "pis_base_calculo" => "$base_pis",
+                    "pis_valor" => "$valor_pis",
+                    "pis_situacao_tributaria" => "$cst_pis",
+                    "pis_aliquota_porcentual" => "$aliq_pis",
+
+                    "cofins_base_calculo" => "$base_cofins",
+                    "cofins_valor" => "$valor_cofins",
+                    "cofins_situacao_tributaria" => "$cst_cofins",
+                    "cofins_aliquota_porcentual" => "$aliq_cofins",
+
+                    // "issqn_base_calculo" => "$base_iss",
+                    // "issqn_valor" => "$valor_iss",
+                    // "issqn_codigo_municipio" => "1400605",
+                );
+
+                if ((empty($inscricao_estadual_dest)) && substr($cfop, 0, 1) == '6') { //enviar informações caso o cliente seja fora do estado e não tenha inscrição estadual independente se é jurido ou fisico, adicionar infomrações do grupo do icms
+                    $item['icms_base_calculo_uf_destino'] = $bc_icms;
+                    $item['fcp_base_calculo_uf_destino'] = $bc_icms;
+                    $item['fcp_percentual_uf_destino'] = 0;
+                    $item['icms_aliquota_interna_uf_destino'] = "$aliq_interna_dest";
+                    $item['icms_aliquota_interestadual'] = "12";
+                    $item['fcp_base_calculo_retido_st'] = "$base_icms_sub";
+                    $item['fcp_valor_retido_st'] = "$icms_sub";
+                    $item['icms_percentual_partilha'] = "100";
+                    $item['fcp_valor_uf_destino'] = "0";
+                    $item['icms_valor_uf_destino'] = "0";
+                    $item['icms_valor_uf_remetente'] = "0";
+                }
+
+                $desconto_item = floor($desconto_nota / $qtd_prod * 100) / 100; // Arredonda para duas casas decimais para baixo
+
+                array_push($nfe["items"], $item);
+            }
+
+            $tentativas = 0;
+            $max_tentativas = 7; // Número máximo de tentativas para a consulta
+            $intervalo_tentativas = 10; // Intervalo entre tentativas (em segundos)
+
+            if ($sub_acao == "enviar_nf") {
+                // Primeira requisição: enviar a nota fiscal
+                $ch = curl_init();
+                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                curl_setopt($ch, CURLOPT_URL, $server . "/v2/nfe?ref=" . $ref);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_POST, 1);
+                curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($nfe));
+                curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+                curl_setopt($ch, CURLOPT_USERPWD, "$login:$password");
+                $body = curl_exec($ch);
+                $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+                // Retorno da primeira requisição
+                $txtretorno = $http_code . $body;
+
+                if ($http_code == 422 || $http_code == 415) {
+                    // Se houver erro nos códigos 422 ou 415, não precisa tentar mais.
+                    $mensagem = utf8_decode("Erro ao enviar a nota $serie_nf$numero_nf via script $http_code"); //registrar no log o evento de envio
+                    registrar_log($conecta, "Loja", $data, $mensagem);
+                    return array("status" => false);
+                }
+
+                // Aguardar antes de continuar com a próxima requisição
+                while ($tentativas < $max_tentativas) {
+                    sleep($intervalo_tentativas);
+
+                    // Segunda Requisição: Consultar o status da nota fiscal
+                    $ch = curl_init();
+                    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                    curl_setopt($ch, CURLOPT_URL, $server . "/v2/nfe/" . $ref . "?completa=1");
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                    curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+                    curl_setopt($ch, CURLOPT_USERPWD, "$login:$password");
+                    $body = curl_exec($ch);
+                    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                    $txtretorno = $http_code . $body;
+
+                    $response = json_decode($body, true);
+
+                    if (isset($response['mensagem'])) {
+                        $mensagem = $response['mensagem'];
+                    } else {
+                        $mensagem = "Operação cancelada, favor, verifique se todas as informações estão corretas";
+                    }
+
+                    // Verifica se o status existe na resposta
+                    if (isset($response['status'])) {
+                        $status = $response['status'];
+
+                        // Erro de autorização
+                        if ($status == "erro_autorizacao") {
+                            $mensagem_sefaz = isset($response['mensagem_sefaz']) ? $response['mensagem_sefaz'] : $mensagem;
+                            $requisicao = isset($response['requisicao_nota_fiscal']) ? $response['requisicao_nota_fiscal'] : '';
+
+                            // Coletar a chave de acesso
+                            if (!empty($requisicao)) {
+                                $chaveAcesso = $requisicao['chave_nfe'];
+                                $chaveAcesso = substr($chaveAcesso, 3);
+
+                                // Atualizar registro da chave de acesso na tabela
+                                $existe_chave_acesso = consulta_tabela($conecta, "tb_nf_saida", "cl_id", $id_nf, "cl_chave_acesso");
+                                if ($existe_chave_acesso == "") {
+                                    update_registro($conecta, "tb_nf_saida", "cl_id", $id_nf, "", "", "cl_chave_acesso", $chaveAcesso);
+                                }
+                            } else {
+                                $chaveAcesso = '';
+                            }
+
+                            $mensagem = utf8_decode("Erro ao enviar a nota $serie_nf$numero_nf via script - mensagem: $mensagem_sefaz"); //registrar no log o evento de envio
+                            registrar_log($conecta, "Loja", $data, $mensagem);
+
+                            return array("status" => false, "mensagem" => "O Enviou da nota $serie_nf$numero_nf falhou");
+                        } elseif ($status == "autorizado") {
+                            // Nota validada
+                            $mensagem_sefaz = $response['mensagem_sefaz'];
+                            $chaveAcesso = $response['chave_nfe'];
+                            $chaveAcesso = substr($chaveAcesso, 3);
+                            $nprotocolo = $response['protocolo'];
+                            $caminho_xml_nota_fiscal = $response['caminho_xml_nota_fiscal'];
+                            $caminho_danfe = $response['caminho_danfe'];
+                            $requisicao = $response['requisicao_nota_fiscal'];
+                            $data_emissao = DateTime::createFromFormat("Y-m-d\TH:i:sP", $requisicao['data_emissao'])->format("Y-m-d");
+
+                            // Atualizar dados na tabela
+                            $existe_numero_protocolo = consulta_tabela($conecta, "tb_nf_saida", "cl_id", $id_nf, "cl_numero_protocolo");
+                            if ($existe_numero_protocolo == "") {
+                                update_registro($conecta, "tb_nf_saida", "cl_id", $id_nf, "", "", "cl_numero_protocolo", $nprotocolo);
+                            }
+
+                            update_registro($conecta, "tb_nf_saida", "cl_id", $id_nf, "", "", "cl_data_emisao_nf", $data_emissao);
+                            update_registro($conecta, "tb_nf_saida", "cl_id", $id_nf, "", "", "cl_chave_acesso", $chaveAcesso);
+                            update_registro($conecta, "tb_nf_saida", "cl_id", $id_nf, "", "", "cl_caminho_xml_nf", $caminho_xml_nota_fiscal);
+                            update_registro($conecta, "tb_nf_saida", "cl_id", $id_nf, "", "", "cl_pdf_nf", $caminho_danfe);
+
+                            $mensagem = utf8_decode("Enviou a nota $serie_nf$numero_nf via script"); //registrar no log o evento de envio
+                            registrar_log($conecta, "Loja", $data, $mensagem);
+
+                            return array("status" => true, "mensagem" => "Enviou a nota $serie_nf$numero_nf com sucesso");
+                        }
+                    }
+                    $tentativas++;
+                }
+
+                curl_close($ch);
+            }
+        }
+    }
+}

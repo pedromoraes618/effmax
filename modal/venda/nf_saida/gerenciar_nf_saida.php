@@ -673,9 +673,17 @@ if (isset($_POST['nf_saida'])) {
                     $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
                     // As próximas três linhas são um exemplo de como imprimir as informações de retorno da API.
                     $txtretorno = $http_code . $body;
+                    $response = json_decode($body, true);
 
                     if ($http_code == 422 or $http_code == 415) { //erro_validacao_schema	 nfe_nao_autorizada	
-                        $retornar["dados"] = array("sucesso" => false, "valores" => $txtretorno . json_encode($nfe, JSON_PRETTY_PRINT), "http_code" => $http_code);
+                        $code = isset($response['codigo']) ? $response['codigo'] : '';
+
+                        $retornar["dados"] = array(
+                            "sucesso" => false,
+                            "code" => $code,
+                            "valores" => $txtretorno . json_encode($nfe, JSON_PRETTY_PRINT),
+                            "http_code" => $http_code
+                        );
                     } else {
                         $retornar["dados"] = array("sucesso" => true, "valores" => $txtretorno, "http_code" => $http_code);
                     }

@@ -24,7 +24,11 @@ function sucesso(data) {
     } else {
         $("#status_processamento").val($dados.valores)
         $(".modal-body #carregando").css("display", "none")
-        clearInterval(intervaloConsulta);
+        if ($dados.code === "already_processed") {
+            consultar_status_nf(id_nf_fiscal)
+        } else {
+            clearInterval(intervaloConsulta);
+        }
         // consultar_status_nf(id_nf_fiscal.value)
 
     }
