@@ -1,9 +1,8 @@
 <?php
-include "../../../conexao/conexao.php";
 include "../../../modal/venda/venda_mercadoria/gerenciar_venda.php";
 include "../../../modal/autorizador/usuario.php";
-include "../../../funcao/funcao.php";
 ?>
+
 <div class="modal fade " id="modal_finalizar_venda" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-lg ">
         <div class="modal-content border border-primary">
@@ -41,8 +40,6 @@ include "../../../funcao/funcao.php";
                                                 <div class="text-muted" style="font-size: 0.8em;">Desconto max <?= $desconto_maximo; ?></div>
 
                                             </div>
-
-
                                             <div>
                                                 <span> <?= $icone; ?></span>
                                             </div>
@@ -163,13 +160,13 @@ include "../../../funcao/funcao.php";
                         <div class="card mb-2">
                             <div class="card-header">Documentos</div>
                             <div class="card-body">
-                                <input type="radio" class="btn-check" name="gerar_documento" id="option5" value="recibo" autocomplete="off" checked>
+                                <input type="radio" class="btn-check" name="gerar_documento" id="option5" value="recibo" autocomplete="off" <?= $serie_default == "RECIBO" ? 'checked' : ''; ?>>
                                 <label class="btn" for="option5">Recibo</label>
 
-                                <input type="radio" class="btn-check" name="gerar_documento" id="option6" value="nfc" autocomplete="off">
+                                <input type="radio" class="btn-check" name="gerar_documento"  id="option6" value="nfc" <?= $serie_default == "NFC" ? 'checked' : ''; ?> autocomplete="off">
                                 <label class="btn" for="option6">NFC</label>
 
-                                <input type="radio" class="btn-check" name="gerar_documento" id="option7" value="nfe" autocomplete="off">
+                                <input type="radio" class="btn-check" name="gerar_documento" id="option7" value="nfe" <?= $serie_default == "NFE" ? 'checked' : ''; ?> autocomplete="off">
                                 <label class="btn" for="option7">NFE</label>
                             </div>
                         </div>

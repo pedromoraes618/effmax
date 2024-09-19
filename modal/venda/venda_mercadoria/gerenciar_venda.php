@@ -32,6 +32,13 @@ if (isset($_GET['form_id'])) {
    $codigo_nf = "";
 }
 
+if (isset($_GET['concluir_venda'])) {
+   include "../../../conexao/conexao.php";
+   include "../../../funcao/funcao.php";
+
+   $serie_default = strtoupper(consulta_tabela($conecta, 'tb_parametros', 'cl_id', 136, 'cl_valor')); //verificar qual serie sela setado com default para ser finalizado junto com a venda
+}
+
 
 //consultar informações para tabela devolucao
 if (isset($_GET['consultar_documento_os'])) {
@@ -142,6 +149,7 @@ if (isset($_GET['consultar_devolucao_venda'])) {
       }
    }
 }
+
 
 //consultar informações para tabela
 if (isset($_GET['consultar_venda'])) {
