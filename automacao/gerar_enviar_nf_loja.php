@@ -7,7 +7,7 @@ $data_final = ($data_final_mes_bd . ' 23:59:59');
 
 $usuario_id = 3;
 $estado_empresa = consulta_tabela($conecta, 'tb_empresa', 'cl_id', 1, 'cl_estado');
-$status_rotina = consulta_tabela($conecta, 'tb_parametros', 'cl_id', 136, 'cl_valor'); //S- SIM OU N - NÃO
+$status_rotina = consulta_tabela($conecta, 'tb_parametros', 'cl_id', 137, 'cl_valor'); //S- SIM OU N - NÃO
 
 if ($status_rotina == "S") {
     $select = "SELECT * FROM tb_pedido_loja where cl_data between '$data_inicial' and '$data_final' and cl_status_pagamento='approved' ";
