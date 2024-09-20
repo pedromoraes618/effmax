@@ -95,8 +95,8 @@ if ($status_rotina == "S") {
                         $cliente_id = $valida_cliente;
                     }
 
+                    
                     $numero_nf_novo = $numero_nf_atual + 1;
-
                     $insert = "INSERT INTO `tb_nf_saida`
                     (`cl_data_movimento`, `cl_codigo_nf`, `cl_parceiro_id`,
                      `cl_forma_pagamento_id`, `cl_numero_nf`, `cl_numero_venda`, `cl_serie_nf`, `cl_operacao`, 

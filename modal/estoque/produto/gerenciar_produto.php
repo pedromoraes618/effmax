@@ -11,7 +11,7 @@ if (isset($_GET['detalhe_produto'])) {
    include "../../../conexao/conexao.php";
    include "../../../funcao/funcao.php";
 
-   $form_id = isset($_GET['form_id']) ? $_GET['form_id'] : 0;
+   $form_id = isset($_GET['form_id']) ? $_GET['form_id'] : '';
    $query = "SELECT * FROM tb_produtos where cl_id = $form_id ";
    $consulta_produto = mysqli_query($conecta, $query);
    if (!$consulta_produto) {
@@ -77,7 +77,7 @@ if (isset($_GET['tela_produto']) or isset($_GET['consultar_produto_tela'])) {
    $altera_estoque = consulta_tabela($conecta, 'tb_parametros', 'cl_id', '104', 'cl_valor');
    $altera_preco = consulta_tabela($conecta, 'tb_parametros', 'cl_id', '25', 'cl_valor');
 
-   $form_id = isset($_GET['form_id']) ? $_GET['form_id'] : 0;
+   $form_id = isset($_GET['form_id']) ? $_GET['form_id'] : '';
    $valida_produto_variante = consulta_tabela($conecta, 'tb_produtos', 'cl_id', $form_id, 'cl_codigo_nf_pai');
 }
 

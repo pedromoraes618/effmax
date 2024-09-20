@@ -16,19 +16,22 @@ var myChart = new Chart(chart1, {
         labels: ["Jan", "fev", "mar", "abr", "mai", "jun", 'jul', 'ago', 'set', 'out', 'nov', 'dez'],
 
         datasets: [{
-            label: 'Lucro R$',
+            label: 'Lucro',
             data: lucro,
             type: 'line',
             borderColor: 'green',
-            fill: false
+            fill: false,
+            currency: 'BRL'
         }, {
-            label: 'Receita R$',
+            label: 'Receita',
             data: receita,
-            backgroundColor: 'blue'
+            backgroundColor: 'blue',
+            currency: 'BRL',
         }, {
-            label: 'Despesa R$',
+            label: 'Despesa',
             data: despesa,
-            backgroundColor: 'red'
+            backgroundColor: 'red',
+            currency: 'BRL'
         },]
     },
     options: {
@@ -50,6 +53,15 @@ var myChart = new Chart(chart1, {
             caretSize: 10,
             titleFontStyle: 'bold',
         },
+        scales: {
+            y: {
+                ticks: {
+                    callback: function (value) {
+                        return 'R$ ' + value.toLocaleString('pt-BR');
+                    }
+                }
+            }
+        }
 
     }
 });
@@ -103,17 +115,19 @@ var myChart = new Chart(chart3, {
     data: {
         labels: ["Jan", "fev", "mar", "abr", "mai", "jun", 'jul', 'ago', 'set', 'out', 'nov', 'dez'],
         datasets: [{
-            label: ano_atual + ' R$',
+            label: ano_atual,
             data: receita_anual_atual,
             type: 'line',
             borderColor: 'blue',
-            fill: false
+            fill: false,
+            currency: 'BRL'
         }, {
-            label: ano_anterior + ' R$',
+            label: ano_anterior,
             data: receita_anual_anterior,
             type: 'line',
             borderColor: 'dark',
-            fill: false
+            fill: false,
+            currency: 'BRL'
         },]
     },
     options: {
@@ -134,12 +148,19 @@ var myChart = new Chart(chart3, {
             caretSize: 10,
             titleFontStyle: 'bold',
         },
-
+        scales: {
+            y: {
+                ticks: {
+                    callback: function (value) {
+                        return 'R$ ' + value.toLocaleString('pt-BR');
+                    }
+                }
+            }
+        }
     }
 });
 
-var despesa_ano_atual = [5000, 2000, 18000.52, 1000, 5000, 5000, 7000, 2000, 3000, 15000, 20000, 7000];
-var despesa_ano_anterior = [1000, 3000, 10000.52, 11000, 3000, 8000, 9000, 2000, 2000, 12000, 10000, 5000];
+
 var myChart = new Chart(chart4, {
     type: 'line',
     data: {
@@ -149,13 +170,15 @@ var myChart = new Chart(chart4, {
             data: despesa_anual_atual,
             type: 'line',
             borderColor: 'blue',
-            fill: false
+            fill: false,
+            currency: 'BRL'
         }, {
             label: ano_anterior + ' R$',
             data: despesa_anual_anterior,
             type: 'line',
             borderColor: 'dark',
-            fill: false
+            fill: false,
+            currency: 'BRL'
         },]
     },
     options: {
@@ -176,6 +199,15 @@ var myChart = new Chart(chart4, {
             caretSize: 10,
             titleFontStyle: 'bold',
         },
+        scales: {
+            y: {
+                ticks: {
+                    callback: function (value) {
+                        return 'R$ ' + value.toLocaleString('pt-BR');
+                    }
+                }
+            }
+        }
 
     }
 });
