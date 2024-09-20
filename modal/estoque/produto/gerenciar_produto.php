@@ -2451,3 +2451,4 @@ if ((isset($_GET['consultar_cest'])) or (isset($_GET['consultar_ncm']))) {
    $select = "SELECT * from tb_cest where cl_cest like '%{$pesquisa}%' or cl_ncm like '%{$pesquisa}%' or cl_descricao like '%{$pesquisa}%'  order by cl_id";
    $buscar_cest_ncm = mysqli_query($conecta, $select);
 }
+ 
